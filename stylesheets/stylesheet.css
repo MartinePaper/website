@@ -11,3 +11,16 @@ div{
 #main {
   background: white;
 }
+
+.center-content{
+  text-align: center; 
+}
+
+.margin{
+  padding:40px;
+}
+
+.subhead{
+  margin-top:10px;
+  margin-bottom:10px;
+}
