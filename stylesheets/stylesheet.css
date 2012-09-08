@@ -10,6 +10,14 @@ div{
 
 #main {
   background: white;
+  padding-top: 20px;
+}
+
+#menu {
+  margin: 30px 20px 0 20px;
+  font: 14px/27px 'AsapRegular', Arial, sans-serif;
+  text-transform: uppercase;
+  color: #888;
 }
 
 .center-content{
