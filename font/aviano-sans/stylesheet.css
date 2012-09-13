@@ -1,0 +1,39 @@
+/* @license
+ * MyFonts Webfont Build ID 2362822, 2012-09-12T20:11:27-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Aviano Sans Light by insigne
+ * URL: http://www.myfonts.com/fonts/insigne/aviano-sans/light/
+ * Licensed pageviews: 10,000
+ * 
+ * Webfont: Aviano Sans by insigne
+ * URL: http://www.myfonts.com/fonts/insigne/aviano-sans/regular/
+ * Licensed pageviews: unspecified
+ * 
+ * Webfont: Aviano Sans Bold by insigne
+ * URL: http://www.myfonts.com/fonts/insigne/aviano-sans/bold/
+ * Licensed pageviews: unspecified
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2362822
+ * Webfonts copyright: Copyright (c) 2009 by Jeremy Dooley. All rights reserved.
+ * 
+ * © 2012 Bitstream Inc
+*/
+
+
+
+  
+ @font-face {font-family: 'AvianoSansLight';src: url('webfonts/240DC6_0_0.eot');src: url('webfonts/240DC6_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/240DC6_0_0.woff') format('woff'),url('webfonts/240DC6_0_0.ttf') format('truetype');}
+ 
+  
+ @font-face {font-family: 'AvianoSansRegular';src: url('webfonts/240DC6_1_0.eot');src: url('webfonts/240DC6_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/240DC6_1_0.woff') format('woff'),url('webfonts/240DC6_1_0.ttf') format('truetype');}
+ 
+  
+ @font-face {font-family: 'AvianoSansBold';src: url('webfonts/240DC6_2_0.eot');src: url('webfonts/240DC6_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/240DC6_2_0.woff') format('woff'),url('webfonts/240DC6_2_0.ttf') format('truetype');}
+ 

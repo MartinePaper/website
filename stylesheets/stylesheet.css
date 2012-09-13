@@ -2,6 +2,8 @@ html { background: transparent }
 
 body{
   background-image: url('../images/paper.png');
+  font-family: SofiaProLightRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #888;
 }
 
 div{
@@ -15,9 +17,8 @@ div{
 
 #menu {
   margin: 30px 20px 0 20px;
-  font: 14px/27px 'AsapRegular', Arial, sans-serif;
+  font-family: AvianoSansLight, Arial, sans-serif;
   text-transform: uppercase;
-  color: #888;
 }
 
 .center-content{
@@ -28,7 +29,19 @@ div{
   padding:40px;
 }
 
+.horizontal-margin{
+  padding: 0 40px;
+}
+
 .subhead{
   margin-top:10px;
   margin-bottom:10px;
+  font-family: AvianoSansLight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 34px;
+}
+
+#social-links a {
+  font-size: 20px;
+  padding: 10px 5px;
 }
