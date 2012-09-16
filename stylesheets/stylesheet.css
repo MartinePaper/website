@@ -1,24 +1,55 @@
 html { background: transparent }
 
 body{
-  background-image: url('../images/paper.png');
+  background-image: url('../images/lyonnette.png');
   font-family: SofiaProLightRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #888;
 }
 
-div{
-  
+h1, h2, h3, h4, h5 {
+  font-family: AvianoSansLight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: purple;
+}
+
+a:hover {
+  color: purple;
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+}
+
+a.carousel-control {
+  color: #ffffff;
+}
+
+a.carousel-control:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a.carousel-control:visited {
+  color: #ffffff;
 }
 
 #main {
   background: white;
   padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 #menu {
   margin: 30px 20px 0 20px;
   font-family: AvianoSansLight, Arial, sans-serif;
   text-transform: uppercase;
+}
+
+#breadcrumbs {
+  margin: 10px 0 0 42px;
 }
 
 .center-content{
@@ -44,4 +75,46 @@ div{
 #social-links a {
   font-size: 20px;
   padding: 10px 5px;
+}
+
+.gallery-row {
+  margin: 0;
+}
+
+.gallery-item {
+  margin: 10px;
+  float: left;
+}
+
+.gallery-caption {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.invitation-info-container {
+  position: relative;
+  height: 440px;
+}
+
+.invitation-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.image-thumbnails {
+  margin-top: 15px;
+}
+
+.image-thumbnail {
+  padding-right: 10px;
+}
+
+.gallery-browse-link {
+  font-size: 60px;
+}
+.gallery-browse-container {
+  margin-top: 200px;
+  text-align: center;
 }
