@@ -107,14 +107,21 @@ a.carousel-control:visited {
   margin-top: 15px;
 }
 
-.image-thumbnail {
-  padding-right: 10px;
-}
-
 .gallery-browse-link {
   font-size: 60px;
 }
 .gallery-browse-container {
   margin-top: 200px;
   text-align: center;
+}
+
+.image-thumbnail {
+  width: 80px;
+  height: 100px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.255);
+  margin-right: 10px;
+}
+
+.invitation-detail-image {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.255);
 }
