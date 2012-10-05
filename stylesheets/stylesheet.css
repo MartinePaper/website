@@ -77,27 +77,32 @@ a.carousel-control:visited {
   padding: 10px 5px;
 }
 
-.gallery-row {
+.collections-row {
   margin: 0;
 }
 
-.gallery-item {
+.collections-item {
   margin: 10px;
   float: left;
 }
 
-.gallery-caption {
+.collections-caption {
   display: block;
   width: 100%;
   text-align: center;
 }
 
-.invitation-info-container {
+.invitation-detail-section-horizontal {
+  position: relative;
+  height: 300px;
+}
+
+.invitation-detail-section-vertical {
   position: relative;
   height: 440px;
 }
 
-.invitation-info {
+.invitation-detail-vertical-content {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -107,12 +112,16 @@ a.carousel-control:visited {
   margin-top: 15px;
 }
 
-.gallery-browse-link {
+.collections-browse-link {
   font-size: 60px;
 }
-.gallery-browse-container {
+.collections-browse-container {
   margin-top: 200px;
   text-align: center;
+}
+
+.invitation-picture-frame {
+
 }
 
 .image-thumbnail {
@@ -124,4 +133,29 @@ a.carousel-control:visited {
 
 .invitation-detail-image {
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.255);
+}
+
+.invitation-detail-a7-vertical {
+  width: 320px;
+  height: 440px;
+}
+
+.invitation-detail-a7-horizontal {
+  width: 440px;
+  height: 320px;
+}
+
+.invitation-detail-n10-vertical {
+  width: 240px;
+  height: 540px;
+}
+
+.invitation-detail-n10-horizontal {
+  width: 540px;
+  height: 240px;
+}
+
+.invitation-detail-4bar-horizontal {
+  width: 320px;
+  height: 230px;
 }
