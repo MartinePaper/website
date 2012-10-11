@@ -1,0 +1,16 @@
+{
+	"invitations": [
+		 {
+			"name": "kelly",
+			"orientation": "vertical",
+			"size": "a7",
+			"descriptionHtml": "<p>Kelly is awesome. Even inside a <strong>badass</strong> template.</p>"
+		},
+		{
+			"name": "laura",
+			"orientation": "horizontal",
+			"size": "n10",
+			"descriptionHtml": "<p>Laura is awesome. Even inside a <strong>badass</strong> template.</p>"
+		}
+	]
+}
