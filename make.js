@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// make-invite-pages.js -- generate invitation pages
+// make.js -- generate website pages
 
 var fs = require('fs');
 var path = require('path');

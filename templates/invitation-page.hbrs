@@ -112,7 +112,6 @@
     <script src="/javascripts/jquery-1.8.1.min.js"></script>
     <script src="/bootstrap/js/bootstrap.min.js"></script>
     <script src="/javascripts/main.js"></script>
-    <script src="/javascripts/handlebars-1.0.rc.1.min.js"></script>
 
   </body>
 </html>
