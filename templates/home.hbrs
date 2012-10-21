@@ -24,76 +24,7 @@
 
     <div id="main" class="container">
       <div id="header-container">
-        <div id="header" class="row-fluid">
-  <div class="span12 center-content">
-    <a href="/">
-      <img src="../images/logohome.png" width="160" height="auto">
-    </a>
-  </div>
-</div>
-
-
-<div id="menu" class="navbar">
-  <div class="navbar-inner">
-    <ul class="nav">
-      <li class="dropdown">
-        <a href="collections">collections</a>
-      </li>
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-          design services
-          <b class="caret"></b>
-        </a>
-        <ul class="dropdown-menu">
-          <li>
-            <a href="#">the process</a>
-          </li>
-          <li>
-            <a href="#">prices</a>
-          </li>
-          <li>
-            <a href="#">testimonials</a>
-          </li>
-          <li>
-            <a href="#">F.A.Q.</a>
-          </li>
-        </ul>
-      </li>
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-          about
-          <b class="caret"></b>
-        </a>
-        <ul class="dropdown-menu">
-          <li>
-            <a href="#">my story</a>
-          </li>
-          <li>
-            <a href="/contact">contact</a>
-          </li>
-        </ul>
-      </li>
-    </ul>
-
-    <ul id="social-links" class="nav pull-right">
-      <li>
-        <a href="#">
-          <i class="icon-pinterest"></i>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="icon-twitter"></i>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="icon-facebook"></i>
-        </a>
-      </li>
-    </ul>
-  </div>
-</div>
+        {{{headerHtml}}}
       </div>
 
       <div id="collections" class="row-fluid">
@@ -101,19 +32,11 @@
           <div id="myCarousel" class="carousel slide margin">
             <!-- Carousel items -->
             <div class="carousel-inner">
-              
-              <div class="active item">
-                <img src="http://placehold.it/880x480" alt="">
+              {{#each invitations}}
+              <div class="{{featuredActive}} item">
+                <img src="{{featuredImageUrl}}" alt="">
               </div>
-              
-              <div class=" item">
-                <img src="http://placehold.it/880x480" alt="">
-              </div>
-              
-              <div class=" item">
-                <img src="http://placehold.it/880x480" alt="">
-              </div>
-              
+              {{/each}}
             </div>
             <!-- Carousel nav -->
             <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>

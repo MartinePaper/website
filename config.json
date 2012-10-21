@@ -1,0 +1,64 @@
+{
+	"invitations": [
+		 {
+			"name": "kelly",
+			"orientation": "vertical",
+			"size": "a7",
+			"descriptionHtml": "<p>Kelly is awesome. Even inside a <strong>badass</strong> template.</p>"
+		},
+		{
+			"name": "catherine",
+			"orientation": "vertical",
+			"size": "a7",
+			"descriptionHtml": "<p>Catherine is awesome too.</p>",
+			"featured": "true",
+			"featuredImageUrl": "http://placehold.it/880x480"
+		},
+		{
+			"name": "kristin",
+			"orientation": "vertical",
+			"size": "a7",
+			"descriptionHtml": "<p>Kristin is awesome too.</p>",
+			"featured": "true",
+			"featuredImageUrl": "http://placehold.it/880x480"
+		},
+		{
+			"name": "julianne",
+			"orientation": "vertical",
+			"size": "a7",
+			"descriptionHtml": "<p>Julianne is awesome too.</p>"
+		},
+		{
+			"name": "alison",
+			"orientation": "vertical",
+			"size": "a7",
+			"descriptionHtml": "<p>Alison is awesome too.</p>"
+		},
+		{
+			"name": "vivian",
+			"orientation": "vertical",
+			"size": "a7",
+			"descriptionHtml": "<p>Vivian is awesome too.</p>"
+		},
+		{
+			"name": "emily",
+			"orientation": "vertical",
+			"size": "n10",
+			"descriptionHtml": "<p>Emily is awesome too.</p>",
+			"featured": "true",
+			"featuredImageUrl": "http://placehold.it/880x480"
+		},
+		{
+			"name": "laura",
+			"orientation": "horizontal",
+			"size": "n10",
+			"descriptionHtml": "<p>Laura is awesome. Even inside a <strong>badass</strong> template.</p>"
+		},
+		{
+			"name": "emma",
+			"orientation": "vertical",
+			"size": "a7",
+			"descriptionHtml": "<p>Emma is awesome too.</p>"
+		}
+	]
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Website : " />
+
+
+    <link rel="stylesheet" type="text/css"  href="bootstrap/css/bootstrap.css">
+
+    <link rel="stylesheet" href="font/aviano-sans/stylesheet.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="font/sofiapro_light/stylesheet.css" type="text/css" charset="utf-8">
+
+    <link rel="stylesheet" href="stylesheets/font-awesome.css">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css">
+
+    <title>MartinePaper | collections | Custom Designed Wedding Invitations | Chicago, IL</title>
+
+  </head>
+
+  <body>
+
+    <div id="main" class="container">
+      <div id="header-container">
+        {{{headerHtml}}}
+      </div>
+
+      <div id="breadcrumbs" class="row-fluid">
+        <div class="span12">
+          <ul class="breadcrumb">
+            <li><a href="/">Home</a> <span class="divider">/</span></li>
+            <li class="active">Collections</li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="collections-title" class="row-fluid horizontal-margin">
+        <div class="span12">
+          <h2>Collections</h2>
+        </div>
+      </div>
+
+
+      <div id="collections" class="row-fluid">
+        <div class="span12">
+          {{#each rows}}
+          <div class="row-fluid collections-row">
+            <div class="span10 offset1">
+              {{#each invitations}}
+              <div class="collections-item">
+                <a href="collections/{{name}}">
+                  <img src="images/collections/{{name}}_thumb.png" alt="">
+                  <span class="collections-caption">{{nameUpperCase}}</span>
+                </a>
+              </div>
+              {{/each}}
+            </div>
+          </div>
+          {{/each}}
+        </div>
+      </div>
+    </div>
+
+
+    <script src="javascripts/jquery-1.8.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
