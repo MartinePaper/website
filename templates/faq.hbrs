@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Website : " />
+
+
+    <link rel="stylesheet" type="text/css"  href="/bootstrap/css/bootstrap.css">
+
+    <link rel="stylesheet" href="/font/aviano-sans/stylesheet.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="/font/sofiapro_light/stylesheet.css" type="text/css" charset="utf-8">
+
+    <link rel="stylesheet" href="/stylesheets/font-awesome.css">
+
+    <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css">
+
+    <title>MartinePaper | Custom Designed Wedding Invitations | Chicago, IL</title>
+
+  </head>
+
+  <body>
+
+    <div id="main" class="container">
+      <div id="header-container">
+        {{{headerHtml}}}
+      </div>
+
+      <div class="row-fluid">
+        <div class="span horizontal-margin page-title">
+          <h2>F.A.Q.</h2>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="row-fluid row-faq-section">
+        <div class="span3 horizontal-margin">
+          <h5>ordering</h5>
+        </div>
+        <div class="span6">
+          <div class="faq-first-question">How do I order a custom design?</div>
+          <p>To order a custom design first contact me using <a href="/contact">this form</a>. I will reply within 1-2 business days. We will have a design consultation either over the phone or in person (free of charge) in which we discuss what you need, and if you choose to move forward, you’ll receive two completely custom designs within three weeks of our meeting. </p>
+          
+          <div class="faq-question">I’m interested in a design i see on the website, can I customize that design? </div>
+          <p>Definitely. If you see a design you like, let me know and we can make as little or as many changes as you like until it’s perfect! </p>
+
+          <div class="faq-question">Do you make matching “day-of-event” items (such as programs, menus, place cards, etc)?</div>
+          <p>Yes! I’d be happy to create the following “day-of-event” items to match your invitation: programs, menus, place cards, and table cards. Don’t forget about other items in the invitation suite that might be useful: direction cards, reception cards, and maps. </p>
+        </div>
+      </div>
+      <div class="row-fluid row-faq-section">
+        <div class="span3 horizontal-margin">
+          <h5>the design process</h5>
+        </div>
+        <div class="span6">
+          <div class="faq-first-question">What is your design process?</div>
+          <p>Please read through the <a href="/process">design process page</a>.</p>
+        </div>
+      </div>
+      <div class="row-fluid row-faq-section">
+        <div class="span3 horizontal-margin">
+          <h5>timing</h5>
+        </div>
+        <div class="span6">
+          <div class="faq-first-question">Do you accommodate rush orders?</div>
+          <p>Yes. Contact me with the time frame, and we’ll see what we can do! For rush orders I usually recommend flat printing as opposed to letterpress since that saves considerable time in the printing, however letterpress can sometimes still be done as a rush order. </p>
+
+          <div class="faq-question">How long does the design process take?</div>
+          <p>From initial contact to final sign off (not including printing) for a customized design please allow about 5-6 weeks. During our initial consultation we’ll discuss the timing, and tailor the process to the time you have available.</p>
+
+          <div class="faq-question">How long should I allow for printing the invitation suites?</div>
+          <p>From initial contact to final sign off (not including printing) for a customized design please allow about 5-6 weeks. During our initial consultation we’ll discuss the timing, and tailor the process to the time you have available.</p>
+        </div>
+      </div>
+      <div class="row-fluid row-faq-section">
+        <div class="span3 horizontal-margin">
+          <h5>payment</h5>
+        </div>
+        <div class="span6">
+          <div class="faq-first-question">How does payment work?</div>
+          <p>I accept checks (preferred), Paypal, and major credit cards (through Square card reader).</p>
+          <p>Once you’ve decided to go forward with a custom design, a non-refundable deposit of $250 is due in order to start the design process. The deposit will be applied towards the final total due. </p>
+        </div>
+      </div>
+      <div class="row-fluid row-faq-section">
+        <div class="span3 horizontal-margin">
+          <h5>shipping</h5>
+        </div>
+        <div class="span6">
+          <div class="faq-first-question">What are your shipping policies?</div>
+          <p>Invitations are shipped via USPS priority mail with insurance and tracking number. If you live in the chicago area I can arrange for pick-up (or even personal delivery!).</p>
+        </div>
+      </div>
+      <div class="row-fluid row-faq-section">
+        <div class="span3 horizontal-margin">
+          <h5>returns &amp; refunds</h5>
+        </div>
+        <div class="span6">
+          <div class="faq-first-question">Do you offer refunds if I’m not satisfied with the final product?</div>
+          <p>Unfortunately, no. Due to the highly customized nature of the invitations, refunds on the final product are not possible.</p>
+
+          <div class="faq-question">What if there is an error on my final piece(s)?</div>
+          <p>While we all hope this NEVER happens, if there is a noticeable error on the final pieces that was not caught in the proofreading process, then we can reprint if time allows. However additional printing costs will apply. </p>
+
+          <div class="faq-question">How long should I allow for printing the invitation suites?</div>
+          <p>From initial contact to final sign off (not including printing) for a customized design please allow about 5-6 weeks. During our initial consultation we’ll discuss the timing, and tailor the process to the time you have available.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="/javascripts/jquery-1.8.1.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+
+  </body>
+</html>

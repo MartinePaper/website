@@ -27,16 +27,6 @@
         {{{headerHtml}}}
       </div>
 
-      <div id="breadcrumbs" class="row-fluid">
-        <div class="span12">
-          <ul class="breadcrumb">
-            <li><a href="/">Home</a> <span class="divider">/</span></li>
-            <li><a href="/collections">Collections</a> <span class="divider">/</span></li>
-            <li class="active">{{nameUpperCase}}</li>
-          </ul>
-        </div>
-      </div>
-
       <section id="invitation-detail-section" data-section-layout-orientation="vertical">
         <div id="invitation-detail" class="row">
           <div class="span1">

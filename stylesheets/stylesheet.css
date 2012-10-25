@@ -52,6 +52,10 @@ a.carousel-control:visited {
   margin: 10px 0 0 42px;
 }
 
+.page-title {
+  margin-top: 30px;
+}
+
 .center-content{
   text-align: center; 
 }
@@ -158,4 +162,28 @@ a.carousel-control:visited {
 .invitation-detail-4bar-horizontal {
   width: 320px;
   height: 230px;
+}
+
+.row-faq-section {
+  margin-top: 30px;
+}
+
+.row-section {
+  margin-top: 30px;
+}
+
+.row-faq-section h5 {
+  text-align: right;
+  margin-top: 0;
+}
+
+.faq-first-question {
+  font-style: italic;
+  color: black;
+}
+
+.faq-question {
+  font-style: italic;
+  margin-top: 15px;
+  color: black;
 }

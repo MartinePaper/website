@@ -28,11 +28,14 @@
       </div>
 
       <div class="row-fluid">
-        <div class="span horizontal-margin">
-          <p class="lead"></p>
+        <div class="span horizontal-margin page-title">
+          <h2>Contact Me</h2>
           <p>Hello! I look forward to hearing from you!</p>
-          <p> <a href="mailto:eh@martinepaper.com">eh@martinepaper.com</a></p>
-          <p> 773.726.4363 </p>
+        </div>
+      </div>
+
+      <div class="row-fluid">
+        <div class="span6 offset1 horizontal-margin">
           <address>
             Martine Paper<br>
             The Feather Lofts<br>
@@ -41,16 +44,23 @@
             Chicago, Illinois 60607<br>
             <em>-- hours by appointment --</em>
           </address>
-          
 
-          <p>If you would like to inquire about custom work, arranging an appointment or just to chat about what I can do for you, please fill out the form below. I will get back to you in 1-2 business days.</p>
+          <p> <a href="mailto:eh@martinepaper.com">eh@martinepaper.com</a><br>
+              773.726.4363 </p>
 
-          <p>If you are in the Chicago area and would like to schedule a consultation we can arrange a time to meet in person. I gladly accommodate evening and weekend appointments. </p>
-          </p>
         </div>
       </div>
 
       <div class="row-fluid">
+        <div class="span10 horizontal-margin">
+          
+          <p>If you are in the Chicago area and would like to schedule a consultation we can arrange a time to meet in person. I gladly accommodate evening and weekend appointments. </p>
+
+          </p>
+        </div>
+      </div>
+
+      <div class="row-fluid row-section">
         <div class="span horizontal-margin">
           <div id="wufoo-z7x3p9">
             Fill out my <a href="http://martinepaper.wufoo.com/forms/z7x3p9">online form</a>.

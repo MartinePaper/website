@@ -7,20 +7,21 @@ var Handlebars = require('handlebars');
 var mkdirp = require('mkdirp');
 var config = require('./config.json');
 
-var headerTemplateText = fs.readFileSync('./templates/header.hbrs').toString();
-var headerTemplate = Handlebars.compile(headerTemplateText);
+var headerTemplate = Handlebars.compile(fs.readFileSync('./templates/header.hbrs').toString());
 
-var homeTemplateText = fs.readFileSync('./templates/home.hbrs').toString();
-var homeTemplate = Handlebars.compile(homeTemplateText);
+var homeTemplate = Handlebars.compile(fs.readFileSync('./templates/home.hbrs').toString());
 
-var collectionsTemplateText = fs.readFileSync('./templates/collections.hbrs').toString();
-var collectionsTemplate = Handlebars.compile(collectionsTemplateText);
+var collectionsTemplate = Handlebars.compile(fs.readFileSync('./templates/collections.hbrs').toString());
 
-var invitationTemplateText = fs.readFileSync('./templates/invitation-page.hbrs').toString();
-var invitationTemplate = Handlebars.compile(invitationTemplateText);
+var invitationTemplate = Handlebars.compile(fs.readFileSync('./templates/invitation-page.hbrs').toString());
 
-var contactTemplateText = fs.readFileSync('./templates/contact.hbrs').toString();
-var contactTemplate = Handlebars.compile(contactTemplateText);
+var contactTemplate = Handlebars.compile(fs.readFileSync('./templates/contact.hbrs').toString());
+
+var contactTemplate = Handlebars.compile(fs.readFileSync('./templates/contact.hbrs').toString());
+
+var processTemplate = Handlebars.compile(fs.readFileSync('./templates/process.hbrs').toString());
+
+var faqTemplate = Handlebars.compile(fs.readFileSync('./templates/faq.hbrs').toString());
 
 
 // generate and output each invitation page
@@ -54,7 +55,7 @@ for (i = 0; i < invitations.length; i++) {
 		featured.invitations.push(invitation);
 	}
 
-	invitation.headerHtml = headerTemplate({ active: 'collections' });
+	invitation.activeNav = 'collections';
 
 	invitation.prevName = invitations[(i === 0) ? invitations.length - 1 : i - 1].name;
 	invitation.nextName = invitations[(i === invitations.length - 1) ? 0 : i + 1].name;
@@ -63,20 +64,24 @@ for (i = 0; i < invitations.length; i++) {
 	invitation.isVertical = invitation.orientation === 'vertical';
 	invitation.isHorizontal = invitation.orientation === 'horizontal';
 
-	createInvitationPage(invitation);
+	createPage(invitationTemplate, invitation, './collections/' + invitation.name);
 }
 
-createCollectionPage({
-	rows: invitationGrid,
-	headerHtml: headerTemplate({ active: 'collections' })
-});
+createPage(collectionsTemplate, { rows: invitationGrid, activeNav: 'collections' }, './collections');
 
+createPage(homeTemplate, featured, './');
 
-createHomePage(featured)
+createPage(contactTemplate, { activeNav: 'about' }, './contact');
 
-createContactPage( { headerHtml: headerTemplate( { active: 'about' } ) } );
+createPage(processTemplate, { activeNav: 'design' }, './process');
+createPage(faqTemplate, { activeNav: 'design' }, './faq');
 
-function createPage(pageHtml, relativePath, name) {
+function createPage(template, pageData, relativePath, name) {
+	pageData.activeNav = pageData.activeNav || 'home';
+	pageData.headerHtml = pageData.headerHtml || headerTemplate( { active: pageData.activeNav } );
+
+	var pageHtml = template(pageData);
+
 	name = name || 'index.html';
 	mkdirp(relativePath, function(err) {
 		if(err) {
@@ -92,24 +97,4 @@ function createPage(pageHtml, relativePath, name) {
 			console.log('Created ' + filePath);
 		});
 	});
-}
-
-function createInvitationPage(invitation) {
-	var pageHtml = invitationTemplate(invitation);
-	createPage(pageHtml, './collections/' + invitation.name);
-}
-
-function createCollectionPage(grid) {
-	var pageHtml = collectionsTemplate(grid);
-	createPage(pageHtml, './collections');
-}
-
-function createContactPage(contact) {
-	var pageHtml = contactTemplate(contact);
-	createPage(pageHtml, './contact');
-}
-
-function createHomePage(featured) {
-	var pageHtml = homeTemplate(featured);
-	createPage(pageHtml, './');
 }

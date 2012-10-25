@@ -27,16 +27,7 @@
         {{{headerHtml}}}
       </div>
 
-      <div id="breadcrumbs" class="row-fluid">
-        <div class="span12">
-          <ul class="breadcrumb">
-            <li><a href="/">Home</a> <span class="divider">/</span></li>
-            <li class="active">Collections</li>
-          </ul>
-        </div>
-      </div>
-
-      <div id="collections-title" class="row-fluid horizontal-margin">
+      <div class="row-fluid horizontal-margin page-title">
         <div class="span12">
           <h2>Collections</h2>
         </div>
