@@ -96,6 +96,11 @@ a.carousel-control:visited {
   text-align: center;
 }
 
+#invitation-detail {
+  height: 460px;
+  margin-bottom: 20px;
+}
+
 .invitation-detail-section-horizontal {
   position: relative;
   height: 300px;
@@ -129,39 +134,78 @@ a.carousel-control:visited {
 }
 
 .image-thumbnail {
-  width: 80px;
-  height: 100px;
+  width: 60px;
+  height: 80px;
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.255);
   margin-right: 10px;
+}
+
+.foo {
+
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -230px;
+  margin-top: -230px;
 }
 
 .invitation-detail-image {
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.255);
 }
 
+#invitation-detail-image-container {
+  width: 460px;
+  height: 460px;
+}
+
 .invitation-detail-a7-vertical {
   width: 320px;
   height: 440px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -160px;
+  margin-top: -220px;
 }
 
 .invitation-detail-a7-horizontal {
   width: 440px;
   height: 320px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -220px;
+  margin-top: -160px;
 }
 
 .invitation-detail-n10-vertical {
-  width: 240px;
-  height: 540px;
+  width: 204px;
+  height: 460px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -102px;
+  margin-top: -230px;
 }
 
 .invitation-detail-n10-horizontal {
-  width: 540px;
-  height: 240px;
+  width: 460px;
+  height: 204px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -230px;
+  margin-top: -102px;
 }
 
 .invitation-detail-4bar-horizontal {
   width: 320px;
   height: 230px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -160px;
+  margin-top: -115px;
 }
 
 .row-faq-section {
