@@ -23,6 +23,8 @@ var processTemplate = Handlebars.compile(fs.readFileSync('./templates/process.hb
 
 var faqTemplate = Handlebars.compile(fs.readFileSync('./templates/faq.hbrs').toString());
 
+var priceTemplate = Handlebars.compile(fs.readFileSync('./templates/prices.hbrs').toString());
+
 
 // generate and output each invitation page
 
@@ -74,7 +76,10 @@ createPage(homeTemplate, featured, './');
 createPage(contactTemplate, { activeNav: 'about' }, './contact');
 
 createPage(processTemplate, { activeNav: 'design' }, './process');
+
 createPage(faqTemplate, { activeNav: 'design' }, './faq');
+
+createPage(priceTemplate, { activeNav: 'design' }, './prices');
 
 function createPage(template, pageData, relativePath, name) {
 	pageData.activeNav = pageData.activeNav || 'home';
