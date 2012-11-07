@@ -37,7 +37,7 @@
           <div class="span10">
             <div class="row">
               <div id="invitation-detail-image-container" class="span6">
-                <img class="invitation-detail-image invitation-detail-{{size}}-{{orientation}}" src="/images/collections/{{name}}_detail.png" alt="">
+                <img class="invitation-detail-image invitation-detail-{{size}}-{{orientation}}" src="/images/collections/{{name}}_detail_1.png" alt="">
               </div>
               <div class="span4">
                 <div class="row">
@@ -53,15 +53,11 @@
 
                 <div class="row">
                   <div class="span image-thumbnails">
-                    <a data-detail-size="{{size}}" data-detail-orientation="{{orientation}}" href="#">
-                      <img class="image-thumbnail" src="../images/collections/{{name}}_detail.png" alt="">
+                    {{#each images}}
+                    <a data-detail-size="{{../size}}" data-detail-orientation="{{../orientation}}" href="#">
+                      <img class="image-thumbnail" src="{{thumbImageUrl}}" data-detail-image="{{largeImageUrl}}" alt="">
                     </a>
-                    <a data-detail-size="4bar" data-detail-orientation="{{orientation}}" href="#">
-                      <img class="image-thumbnail" src="../images/collections/{{name}}_rsvp_detail.png" alt="">
-                    </a>
-                    <a href="#">
-                      <img class="image-thumbnail" src="http://placehold.it/80x100" alt="">
-                    </a>
+                    {{/each}}
                   </div>
                 </div>
               </div>

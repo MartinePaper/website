@@ -792,7 +792,7 @@ abbr.initialism {
 blockquote {
   padding: 0 0 0 15px;
   margin: 0 0 20px;
-  border-left: 5px solid #eeeeee;
+  border-left: none;
 }
 
 blockquote p {
@@ -816,7 +816,7 @@ blockquote.pull-right {
   float: right;
   padding-right: 15px;
   padding-left: 0;
-  border-right: 5px solid #eeeeee;
+  border-right: none;
   border-left: 0;
 }
 
@@ -834,10 +834,27 @@ blockquote.pull-right small:after {
 }
 
 q:before,
-q:after,
-blockquote:before,
-blockquote:after {
+q:after{
   content: "";
+}
+blockquote:before {
+  display: block;
+  float: left;
+  margin: 10px 15px 0 0;
+  font-size: 100px; /* let's make it a big quote! */
+  font-family: 'Didact Gothic', sans-serif;
+  content: open-quote; /* here we define our :before as a smart quote. It could be any content, even the HTML entity alternative to this opening quote, that is “ */
+  color: #bababa;
+  text-shadow: 0 1px 1px #909090;
+}
+blockquote:after {  display: block;
+  float: right;
+  margin: 10px 15px 0 0;
+  font-size: 100px; /* let's make it a big quote! */
+  font-family: 'Didact Gothic', sans-serif;
+  content: close-quote; /* here we define our :before as a smart quote. It could be any content, even the HTML entity alternative to this opening quote, that is “ */
+  color: #bababa;
+  text-shadow: 0 1px 1px #909090;
 }
 
 address {

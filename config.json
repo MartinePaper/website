@@ -4,7 +4,31 @@
 			"name": "kelly",
 			"orientation": "vertical",
 			"size": "a7",
-			"descriptionHtml": "<p>Kelly is awesome. Even inside a <strong>badass</strong> template.</p>"
+			"descriptionHtml": "<p>Kelly is awesome. Even inside a <strong>badass</strong> template.</p>",
+			"featured": "true",
+			"featuredImageUrl": "/images/collections/kelly-9-carousel.png",
+			"images": [
+				{
+					"title": "digital",
+					"thumbImageUrl": "/images/collections/kelly_detail_1.png",
+					"largeImageUrl": "/images/collections/kelly_detail_1.png"
+				},
+				{
+					"title": "photo_1",
+					"thumbImageUrl": "/images/collections/kelly_thumb_2.png",
+					"largeImageUrl": "/images/collections/kelly_detail_2.png"
+				},
+				{
+					"title": "photo_1",
+					"thumbImageUrl": "/images/collections/kelly_thumb_3.png",
+					"largeImageUrl": "/images/collections/kelly_detail_3.png"
+				},
+				{
+					"title": "photo_1",
+					"thumbImageUrl": "/images/collections/kelly_detail_4.png",
+					"largeImageUrl": "/images/collections/kelly_detail_4.png"
+				}
+			]
 		},
 		{
 			"name": "catherine",
@@ -12,7 +36,19 @@
 			"size": "a7",
 			"descriptionHtml": "<p>Catherine is awesome too.</p>",
 			"featured": "true",
-			"featuredImageUrl": "http://placehold.it/880x480"
+			"featuredImageUrl": "/images/collections/catherine-9-carousel.png",
+			"images": [
+				{
+					"title": "digital",
+					"thumbImageUrl": "/images/collections/catherine_detail_1.png",
+					"largeImageUrl": "/images/collections/catherine_detail_1.png"
+				},
+				{
+					"title": "photo",
+					"thumbImageUrl": "/images/collections/catherine_thumb_2.png",
+					"largeImageUrl": "/images/collections/catherine_detail_2.png"
+				}
+			]
 		},
 		{
 			"name": "kristin",
@@ -20,7 +56,29 @@
 			"size": "a7",
 			"descriptionHtml": "<p>Kristin is awesome too.</p>",
 			"featured": "true",
-			"featuredImageUrl": "http://placehold.it/880x480"
+			"featuredImageUrl": "/images/collections/kristin-3-carousel.png",
+			"images": [
+				{
+					"title": "digital",
+					"thumbImageUrl": "/images/collections/kristin_detail_1.png",
+					"largeImageUrl": "/images/collections/kristin_detail_1.png"
+				},
+				{
+					"title": "photo_1",
+					"thumbImageUrl": "/images/collections/kristin_thumb_2.png",
+					"largeImageUrl": "/images/collections/kristin_detail_2.png"
+				},
+				{
+					"title": "photo_1",
+					"thumbImageUrl": "/images/collections/kristin_thumb_3.png",
+					"largeImageUrl": "/images/collections/kristin_detail_3.png"
+				},
+				{
+					"title": "photo_1",
+					"thumbImageUrl": "/images/collections/kristin_thumb_4.png",
+					"largeImageUrl": "/images/collections/kristin_detail_4.png"
+				}
+			]
 		},
 		{
 			"name": "julianne",
@@ -46,7 +104,24 @@
 			"size": "n10",
 			"descriptionHtml": "<p>Emily is awesome too.</p>",
 			"featured": "true",
-			"featuredImageUrl": "http://placehold.it/880x480"
+			"featuredImageUrl": "/images/collections/emily-10-carousel.png",
+			"images": [
+				{
+					"title": "digital",
+					"thumbImageUrl": "/images/collections/emily_detail_1.png",
+					"largeImageUrl": "/images/collections/emily_detail_1.png"
+				},
+				{
+					"title": "photo",
+					"thumbImageUrl": "/images/collections/emily_thumb_2.png",
+					"largeImageUrl": "/images/collections/emily_detail_2.png"
+				},
+				{
+					"title": "photo2",
+					"thumbImageUrl": "/images/collections/emily_thumb_3.png",
+					"largeImageUrl": "/images/collections/emily_detail_3.png"
+				}
+			]
 		},
 		{
 			"name": "laura",

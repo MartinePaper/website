@@ -29,18 +29,20 @@
 
       <div id="collections" class="row-fluid">
         <div class="span12 ">
-          <div id="myCarousel" class="carousel slide margin">
+          <div id="invitationCarousel" class="carousel slide margin">
             <!-- Carousel items -->
             <div class="carousel-inner">
               {{#each invitations}}
-              <div class="{{featuredActive}} item">
+              {{#if featured}}
+              <div class="item">
                 <img src="{{featuredImageUrl}}" alt="">
               </div>
+              {{/if}}
               {{/each}}
             </div>
             <!-- Carousel nav -->
-            <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-            <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+            <a class="carousel-control left" href="#invitationCarousel" data-slide="prev">&lsaquo;</a>
+            <a class="carousel-control right" href="#invitationCarousel" data-slide="next">&rsaquo;</a>
           </div>
         </div>
       </div>
@@ -74,7 +76,7 @@
 
         <div id="right" class="span4 margin">
           <a href="#" class="thumbnail">
-            <img src="http://placehold.it/240x160" alt="">
+            <img src="/images/pinterest.png" alt="">
           </a>
           <h3 class="subhead">Pinterest</h3>
           <p>Follow MartinePaper on Pinterest and see what is inspiring us.</p>
@@ -89,7 +91,8 @@
     <script src="/bootstrap/js/bootstrap.min.js"></script>
 
     <script>
-      $('.carousel').carousel()
+    $('#invitationCarousel .item').first().addClass('active');
+      $('.carousel').carousel();
     </script>
 
   </body>

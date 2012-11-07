@@ -52,7 +52,7 @@
             <a href="/prices">prices</a>
           </li>
           <li>
-            <a href="#">testimonials</a>
+            <a href="/testimonials">testimonials</a>
           </li>
           <li>
             <a href="/faq">F.A.Q.</a>
@@ -98,26 +98,38 @@
 
       <div id="collections" class="row-fluid">
         <div class="span12 ">
-          <div id="myCarousel" class="carousel slide margin">
+          <div id="invitationCarousel" class="carousel slide margin">
             <!-- Carousel items -->
             <div class="carousel-inner">
               
-              <div class="active item">
-                <img src="http://placehold.it/880x480" alt="">
+              
+              <div class="item">
+                <img src="/images/collections/kelly-9-carousel.png" alt="">
               </div>
               
-              <div class=" item">
-                <img src="http://placehold.it/880x480" alt="">
+              
+              
+              <div class="item">
+                <img src="/images/collections/catherine-9-carousel.png" alt="">
               </div>
               
-              <div class=" item">
-                <img src="http://placehold.it/880x480" alt="">
+              
+              
+              <div class="item">
+                <img src="/images/collections/kristin-3-carousel.png" alt="">
               </div>
+              
+              
+              
+              <div class="item">
+                <img src="/images/collections/emily-10-carousel.png" alt="">
+              </div>
+              
               
             </div>
             <!-- Carousel nav -->
-            <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-            <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+            <a class="carousel-control left" href="#invitationCarousel" data-slide="prev">&lsaquo;</a>
+            <a class="carousel-control right" href="#invitationCarousel" data-slide="next">&rsaquo;</a>
           </div>
         </div>
       </div>
@@ -151,7 +163,7 @@
 
         <div id="right" class="span4 margin">
           <a href="#" class="thumbnail">
-            <img src="http://placehold.it/240x160" alt="">
+            <img src="/images/pinterest.png" alt="">
           </a>
           <h3 class="subhead">Pinterest</h3>
           <p>Follow MartinePaper on Pinterest and see what is inspiring us.</p>
@@ -166,7 +178,8 @@
     <script src="/bootstrap/js/bootstrap.min.js"></script>
 
     <script>
-      $('.carousel').carousel()
+    $('#invitationCarousel .item').first().addClass('active');
+      $('.carousel').carousel();
     </script>
 
   </body>
