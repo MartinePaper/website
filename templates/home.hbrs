@@ -58,7 +58,7 @@
       <div id="subheads" class="row-fluid">
         <div id="left" class="span4 margin">
          <a href="#" class="thumbnail">
-            <img src="http://placehold.it/240x160" alt="">
+            <img src="/images/designservices.png" alt="">
           </a>
           <h3 class="subhead">Design Services</h3>
           <p>Find out about the custom design services offered by MartinePaper.</p>

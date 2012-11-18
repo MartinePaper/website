@@ -30,7 +30,7 @@ var testimonialsTemplate = Handlebars.compile(fs.readFileSync('./templates/testi
 
 // generate and output each invitation page
 
-var i, index, invitation;
+var i, j, index, invitation;
 var invitations = config.invitations;
 var invitationGrid = [];
 var invitationRow;
@@ -64,6 +64,22 @@ for (i = 0; i < invitations.length; i++) {
 	invitation.prevName = invitations[(i === 0) ? invitations.length - 1 : i - 1].name;
 	invitation.nextName = invitations[(i === invitations.length - 1) ? 0 : i + 1].name;
 	invitation.nameUpperCase = invitation.name[0].toUpperCase() + invitation.name.slice(1);
+	invitation.shareThis = false;
+	if (invitation.images) {
+		for (j = 0; j < invitation.images.length; j++) {
+			var img = invitation.images[j];
+			if (img.shareText) {
+				invitation.shareImageUrl = img.largeImageUrl;
+				invitation.shareImageUrlEncoded = encodeURIComponent(invitation.shareImageUrl);
+				invitation.shareText = img.shareText;
+				invitation.shareTextEncoded = encodeURIComponent(invitation.shareText);
+				invitation.shareLink = 'http://www.martinepaper.com/collections/' + invitation.name;
+				invitation.shareLinkEncoded = encodeURIComponent(invitation.shareLink);
+				invitation.shareThis = true;
+				break;
+			}
+		}
+	}
 
 	invitation.isVertical = invitation.orientation === 'vertical';
 	invitation.isHorizontal = invitation.orientation === 'horizontal';

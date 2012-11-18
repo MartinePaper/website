@@ -81,6 +81,10 @@ a.carousel-control:visited {
   padding: 10px 5px;
 }
 
+.row-spaced {
+  margin-top: 20px;
+}
+
 .collections-row {
   margin: 0;
 }
@@ -247,3 +251,7 @@ a.carousel-control:visited {
   content: "\00BB \0020";
 }
 
+.share-links a {
+  color: #777;
+  text-shadow: 0 1px 0 white;
+}

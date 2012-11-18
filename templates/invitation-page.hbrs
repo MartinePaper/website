@@ -43,10 +43,8 @@
                 <div class="row">
                   <div class="span">
                     <div class="invitation-info">
-                      <h4>{{nameUpperClass}}</h4>
+                      <h4>{{nameUpperCase}}</h4>
                       <p>{{{descriptionHtml}}}</p>
-                      <p><a href="pricing.html">View Pricing</a></p>
-                      <div class="sharing"></div>
                     </div>
                   </div>
                 </div>
@@ -60,6 +58,31 @@
                     {{/each}}
                   </div>
                 </div>
+
+                <div class="row row-spaced">
+                  <div class="span">
+                    <p><a href="pricing.html">View Pricing</a></p>
+                  </div>
+                </div>
+
+                {{#if shareThis}}
+                <div class="row row-spaced">
+                  <div class="span share-links">
+                    <a href="http://pinterest.com/pin/create/button/?url={{shareLinkEncoded}}&media={{shareImageUrlEncoded}}&description={{shareTextEncoded}}" class="pin-it-button" count-layout="none"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>
+                  </div>
+                  <div class="span share-links">
+                    <a href="http://www.tumblr.com/share/photo?source={{shareImageUrlEncoded}}&caption={{shareTextEncoded}}&click_thru={{shareLinkEncoded}}" style="display:inline-block; text-indent:-9999px; overflow:hidden; width:20px; height:20px; background:url('http://platform.tumblr.com/v1/share_4T.png') top left no-repeat transparent;" title="Share on Tumblr">Share on Tumblr</a>
+                  </div>
+                  <div class="span share-links">
+                    <iframe src="//www.facebook.com/plugins/like.php?href={{shareLinkEncoded}}&amp;send=false&amp;layout=button_count&amp;width=90&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:21px;" allowTransparency="true"></iframe>
+                  </div>
+                  <div class="span share-links">
+                    <a href="mailto:?subject=The {{nameUpperCase}} Invitation by Martine Paper&amp;body=Look what I found on MartinePaper.com {{shareLink}}"> 
+                      Email
+                    </a>
+                  </div>
+                </div>
+                {{/if}}
               </div>
             </div>
           </div>
@@ -76,6 +99,7 @@
     <script src="/javascripts/jquery-1.8.1.min.js"></script>
     <script src="/bootstrap/js/bootstrap.min.js"></script>
     <script src="/javascripts/main.js"></script>
+    <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
 
   </body>
 </html>

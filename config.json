@@ -4,7 +4,7 @@
 			"name": "kelly",
 			"orientation": "vertical",
 			"size": "a7",
-			"descriptionHtml": "<p>Kelly is awesome. Even inside a <strong>badass</strong> template.</p>",
+			"descriptionHtml": "<p>Kelly features a crisp and bold chevron leaf pattern, making it a modern and fresh design.</p><p>Kelly is a 2-color letterpress design, in the standard A7 (5”x7”) size. This design works best letterpressed. Colors, fonts and size can be customized.</p>",
 			"featured": "true",
 			"featuredImageUrl": "/images/collections/kelly-9-carousel.png",
 			"images": [
@@ -15,6 +15,7 @@
 				},
 				{
 					"title": "photo_1",
+					"shareText": "Kelly features a crisp and bold chevron leaf pattern, making it a modern and fresh design.",
 					"thumbImageUrl": "/images/collections/kelly_thumb_2.png",
 					"largeImageUrl": "/images/collections/kelly_detail_2.png"
 				},
@@ -34,7 +35,7 @@
 			"name": "catherine",
 			"orientation": "vertical",
 			"size": "a7",
-			"descriptionHtml": "<p>Catherine is awesome too.</p>",
+			"descriptionHtml": "<p>Catherine is a 2-color letterpress design of hand-drawn brushstroke flowers; perfect for an outdoor garden wedding.</p><p> This invitation suite is available letterpressed or flat printed in the A7 (5”x7”) size; Like all other invitation suites, it can be completely customized.</p>",
 			"featured": "true",
 			"featuredImageUrl": "/images/collections/catherine-9-carousel.png",
 			"images": [
@@ -54,7 +55,7 @@
 			"name": "kristin",
 			"orientation": "vertical",
 			"size": "a7",
-			"descriptionHtml": "<p>Kristin is awesome too.</p>",
+			"descriptionHtml": "<p>Kristin is a simple and chic design -- perfect for a refined and stylish wedding.</p><p>Kristin is a 2-color letterpress design, in the standard A7 size (5”x7”), and can be completely customized.</p>",
 			"featured": "true",
 			"featuredImageUrl": "/images/collections/kristin-3-carousel.png",
 			"images": [
@@ -84,13 +85,13 @@
 			"name": "julianne",
 			"orientation": "vertical",
 			"size": "a7",
-			"descriptionHtml": "<p>Julianne is awesome too.</p>"
+			"descriptionHtml": "<p>Delicate stylized swirls of branches, and a pair of birds adorns this invitation suite, giving it an elegant and timeless feel.</p><p>This design is available letterpressed in 1 or 2 colors, in the A7 (5”x7”) size. Like all other invitation suites, it can be completely customized. </p>"
 		},
 		{
 			"name": "alison",
 			"orientation": "vertical",
 			"size": "a7",
-			"descriptionHtml": "<p>Alison is awesome too.</p>"
+			"descriptionHtml": "<p>Perfect for an outdoor wedding, this invitation design combines delicate typography with a simple sprig of foliage.</p><p>The Alison design can be letterpressed (2 colors) or flat printed, and comes in the standard A7 size. Like all other invitation suites, the design can be completely customized. </p>"
 		},
 		{
 			"name": "vivian",
@@ -102,7 +103,7 @@
 			"name": "emily",
 			"orientation": "vertical",
 			"size": "n10",
-			"descriptionHtml": "<p>Emily is awesome too.</p>",
+			"descriptionHtml": "A striking image of a ruffled flower makes this invitation ideal for a sophisticated event.</p><p>Emily is available flat printed, and it’s long and thin shape is designed to fit in a #10 envelope (4”x 9”). Emily’s design can be completely customized. </p>",
 			"featured": "true",
 			"featuredImageUrl": "/images/collections/emily-10-carousel.png",
 			"images": [
@@ -133,7 +134,7 @@
 			"name": "emma",
 			"orientation": "vertical",
 			"size": "a7",
-			"descriptionHtml": "<p>Emma is awesome too.</p>"
+			"descriptionHtml": "<p>Emma’s design of delicate leaves swaying in the breeze is romantic and lovely; perfect for an outdoor wedding.</p><p>Emma is available flat printed or letterpressed in 2 colors and comes in the A7 (5”x7”) size. Emma’s design can be completely customized. </p>"
 		}
 	]
 }
