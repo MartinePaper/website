@@ -148,20 +148,20 @@
 
                 
                 <div class="row row-spaced">
-                  <div class="span share-links">
-                    <a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.martinepaper.com%2Fcollections%2Fkelly&media=%2Fimages%2Fcollections%2Fkelly_detail_2.png&description=Kelly%20features%20a%20crisp%20and%20bold%20chevron%20leaf%20pattern%2C%20making%20it%20a%20modern%20and%20fresh%20design." class="pin-it-button" count-layout="none"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>
-                  </div>
-                  <div class="span share-links">
-                    <a href="http://www.tumblr.com/share/photo?source=%2Fimages%2Fcollections%2Fkelly_detail_2.png&caption=Kelly%20features%20a%20crisp%20and%20bold%20chevron%20leaf%20pattern%2C%20making%20it%20a%20modern%20and%20fresh%20design.&click_thru=http%3A%2F%2Fwww.martinepaper.com%2Fcollections%2Fkelly" style="display:inline-block; text-indent:-9999px; overflow:hidden; width:20px; height:20px; background:url('http://platform.tumblr.com/v1/share_4T.png') top left no-repeat transparent;" title="Share on Tumblr">Share on Tumblr</a>
-                  </div>
-                  <div class="span share-links">
-                    <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.martinepaper.com%2Fcollections%2Fkelly&amp;send=false&amp;layout=button_count&amp;width=90&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:21px;" allowTransparency="true"></iframe>
-                  </div>
-                  <div class="span share-links">
-                    <a href="mailto:?subject=The Kelly Invitation by Martine Paper&amp;body=Look what I found on MartinePaper.com http://www.martinepaper.com/collections/kelly"> 
+                  <div id="share-email" class="span share-links">
+                    <a href="mailto:?subject=The Kelly Invitation by Martine Paper&amp;body=Look what I found on MartinePaper.com http://www.martinepaper.com/collections/kelly" target="_blank"> 
                       <i class="icon-envelope"></i>
                       Email
                     </a>
+                  </div>
+                  <div id="share-pinterest" class="span share-links">
+                    <a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.martinepaper.com%2Fcollections%2Fkelly&media=%2Fimages%2Fcollections%2Fkelly_detail_2.png&description=Kelly%20features%20a%20crisp%20and%20bold%20chevron%20leaf%20pattern%2C%20making%20it%20a%20modern%20and%20fresh%20design." class="pin-it-button" count-layout="none"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" target="_blank">Pin It</a>
+                  </div>
+                  <div id="share-tumblr" class="span share-links">
+                    <a href="http://www.tumblr.com/share/photo?source=%2Fimages%2Fcollections%2Fkelly_detail_2.png&caption=Kelly%20features%20a%20crisp%20and%20bold%20chevron%20leaf%20pattern%2C%20making%20it%20a%20modern%20and%20fresh%20design.&click_thru=http%3A%2F%2Fwww.martinepaper.com%2Fcollections%2Fkelly" style="display:inline-block; text-indent:-9999px; overflow:hidden; width:20px; height:20px; background:url('http://platform.tumblr.com/v1/share_4T.png') top left no-repeat transparent;" title="Share on Tumblr" target="_blank">Share on Tumblr</a>
+                  </div>
+                  <div id="share-facebook" class="span share-links">
+                    <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.martinepaper.com%2Fcollections%2Fkelly&amp;send=false&amp;layout=button_count&amp;width=90&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:21px;" allowTransparency="true"></iframe>
                   </div>
                 </div>
                 
@@ -182,6 +182,13 @@
     <script src="/bootstrap/js/bootstrap.min.js"></script>
     <script src="/javascripts/main.js"></script>
     <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
+    <script>
+      $(function() {
+        $('.share-links').click(function(e) {
+          // TODO: track click to e.currentTarget.id;
+        });
+      });
+    </script>
 
   </body>
 </html>

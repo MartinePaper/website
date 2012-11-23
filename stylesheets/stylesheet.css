@@ -255,3 +255,18 @@ a.carousel-control:visited {
   color: #777;
   text-shadow: 0 1px 0 white;
 }
+
+.share-links i {
+  font-size: 20px;
+  width: 20px;
+  margin-top: 3px;
+}
+
+.testimonial {
+  margin: 5em;
+  text-align: justify;
+  padding-bottom: 2em;
+}
+
+.testimonial::after {
+  padding-top:16px;
