@@ -78,6 +78,7 @@
                   </div>
                   <div class="span share-links">
                     <a href="mailto:?subject=The {{nameUpperCase}} Invitation by Martine Paper&amp;body=Look what I found on MartinePaper.com {{shareLink}}"> 
+                      <i class="icon-envelope"></i>
                       Email
                     </a>
                   </div>
