@@ -27,6 +27,8 @@ var priceTemplate = Handlebars.compile(fs.readFileSync('./templates/prices.hbrs'
 
 var testimonialsTemplate = Handlebars.compile(fs.readFileSync('./templates/testimonials.hbrs').toString());
 
+var mystoryTemplate = Handlebars.compile(fs.readFileSync('./templates/my-story.hbrs').toString());
+
 
 // generate and output each invitation page
 
@@ -68,6 +70,8 @@ for (i = 0; i < invitations.length; i++) {
 	if (invitation.images) {
 		for (j = 0; j < invitation.images.length; j++) {
 			var img = invitation.images[j];
+			img.size = img.size || invitation.size;
+			img.orientation = img.orientation || invitation.orientation;
 			if (img.shareText) {
 				invitation.shareImageUrl = img.largeImageUrl;
 				invitation.shareImageUrlEncoded = encodeURIComponent(invitation.shareImageUrl);
@@ -76,7 +80,6 @@ for (i = 0; i < invitations.length; i++) {
 				invitation.shareLink = 'http://www.martinepaper.com/collections/' + invitation.name;
 				invitation.shareLinkEncoded = encodeURIComponent(invitation.shareLink);
 				invitation.shareThis = true;
-				break;
 			}
 		}
 	}
@@ -99,7 +102,18 @@ createPage(faqTemplate, { activeNav: 'design' }, './faq');
 
 createPage(priceTemplate, { activeNav: 'design' }, './prices');
 
-createPage(testimonialsTemplate, { activeNav: 'design' }, './testimonials');
+var testimonials = config.testimonials;
+
+for (i = 0; i < testimonials.length; i++) {
+	var testimonial = testimonials[i];
+	testimonial.defaultImageUrl = testimonial.images[0].largeImageUrl;
+	testimonial.notFirst = (i > 0);
+	testimonial.index = i;
+}
+
+createPage(testimonialsTemplate, { activeNav: 'design', testimonials: testimonials }, './testimonials');
+
+createPage(mystoryTemplate, { activeNav: 'about' }, './my-story');
 
 function createPage(template, pageData, relativePath, name) {
 	pageData.activeNav = pageData.activeNav || 'home';

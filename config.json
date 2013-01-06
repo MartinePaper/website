@@ -14,20 +14,22 @@
 					"largeImageUrl": "/images/collections/kelly_detail_1.png"
 				},
 				{
+					"title": "rsvp_1",
+					"size": "4bar",
+					"orientation": "horizontal",
+					"thumbImageUrl": "/images/collections/kelly_detail_4.png",
+					"largeImageUrl": "/images/collections/kelly_detail_4.png"
+				},
+				{
 					"title": "photo_1",
 					"shareText": "Kelly features a crisp and bold chevron leaf pattern, making it a modern and fresh design.",
 					"thumbImageUrl": "/images/collections/kelly_thumb_2.png",
 					"largeImageUrl": "/images/collections/kelly_detail_2.png"
 				},
 				{
-					"title": "photo_1",
+					"title": "photo_2",
 					"thumbImageUrl": "/images/collections/kelly_thumb_3.png",
 					"largeImageUrl": "/images/collections/kelly_detail_3.png"
-				},
-				{
-					"title": "photo_1",
-					"thumbImageUrl": "/images/collections/kelly_detail_4.png",
-					"largeImageUrl": "/images/collections/kelly_detail_4.png"
 				}
 			]
 		},
@@ -45,9 +47,22 @@
 					"largeImageUrl": "/images/collections/catherine_detail_1.png"
 				},
 				{
-					"title": "photo",
+					"title": "rsvp_1",
+					"size": "4bar",
+					"orientation": "horizontal",
+					"thumbImageUrl": "/images/collections/catherine_detail_4.png",
+					"largeImageUrl": "/images/collections/catherine_detail_4.png"
+				},
+				{
+					"title": "photo_1",
+					"shareText": "Catherine is a 2-color letterpress design of hand-drawn brushstroke flowers; perfect for an outdoor garden wedding.",
 					"thumbImageUrl": "/images/collections/catherine_thumb_2.png",
 					"largeImageUrl": "/images/collections/catherine_detail_2.png"
+				},
+				{
+					"title": "photo_2",
+					"thumbImageUrl": "/images/collections/catherine_detail_3.png",
+					"largeImageUrl": "/images/collections/catherine_detail_3.png"
 				}
 			]
 		},
@@ -65,7 +80,15 @@
 					"largeImageUrl": "/images/collections/kristin_detail_1.png"
 				},
 				{
+					"title": "rsvp_1",
+					"size": "4bar",
+					"orientation": "vertical",
+					"thumbImageUrl": "/images/collections/kristin_detail_5.png",
+					"largeImageUrl": "/images/collections/kristin_detail_5.png"
+				},
+				{
 					"title": "photo_1",
+					"shareText": "Kristin is a simple and chic design -- perfect for a refined and stylish wedding.",
 					"thumbImageUrl": "/images/collections/kristin_thumb_2.png",
 					"largeImageUrl": "/images/collections/kristin_detail_2.png"
 				},
@@ -73,11 +96,6 @@
 					"title": "photo_1",
 					"thumbImageUrl": "/images/collections/kristin_thumb_3.png",
 					"largeImageUrl": "/images/collections/kristin_detail_3.png"
-				},
-				{
-					"title": "photo_1",
-					"thumbImageUrl": "/images/collections/kristin_thumb_4.png",
-					"largeImageUrl": "/images/collections/kristin_detail_4.png"
 				}
 			]
 		},
@@ -85,19 +103,75 @@
 			"name": "julianne",
 			"orientation": "vertical",
 			"size": "a7",
-			"descriptionHtml": "<p>Delicate stylized swirls of branches, and a pair of birds adorns this invitation suite, giving it an elegant and timeless feel.</p><p>This design is available letterpressed in 1 or 2 colors, in the A7 (5”x7”) size. Like all other invitation suites, it can be completely customized. </p>"
+			"descriptionHtml": "<p>Delicate stylized swirls of branches, and a pair of birds adorns this invitation suite, giving it an elegant and timeless feel.</p><p>This design is available letterpressed in 1 or 2 colors, in the A7 (5”x7”) size. Like all other invitation suites, it can be completely customized. </p>",
+			"images": [
+				{
+					"title": "digital",
+					"shareText": "Delicate stylized swirls of branches, and a pair of birds adorns this invitation suite, giving it an elegant and timeless feel.",
+					"thumbImageUrl": "/images/collections/julianne_detail_1.png",
+					"largeImageUrl": "/images/collections/julianne_detail_1.png"
+				},
+				{
+					"title": "rsvp_1",
+					"size": "4bar",
+					"orientation": "horizontal",
+					"thumbImageUrl": "/images/collections/julianne_detail_2.png",
+					"largeImageUrl": "/images/collections/julianne_detail_2.png"
+				},
+				{
+					"title": "photo_1",
+					"shareText": "Delicate stylized swirls of branches, and a pair of birds adorns this invitation suite, giving it an elegant and timeless feel.",
+					"thumbImageUrl": "/images/collections/julianne_detail_3.png",
+					"largeImageUrl": "/images/collections/julianne_detail_3.png"
+				},
+				{
+					"title": "photo_2",
+					"thumbImageUrl": "/images/collections/julianne_detail_4.png",
+					"largeImageUrl": "/images/collections/julianne_detail_4.png"
+				}
+			]
 		},
 		{
 			"name": "alison",
 			"orientation": "vertical",
 			"size": "a7",
-			"descriptionHtml": "<p>Perfect for an outdoor wedding, this invitation design combines delicate typography with a simple sprig of foliage.</p><p>The Alison design can be letterpressed (2 colors) or flat printed, and comes in the standard A7 size. Like all other invitation suites, the design can be completely customized. </p>"
+			"descriptionHtml": "<p>Perfect for an outdoor wedding, this invitation design combines delicate typography with a simple sprig of foliage.</p><p>The Alison design can be letterpressed (2 colors) or flat printed, and comes in the standard A7 size. Like all other invitation suites, the design can be completely customized. </p>",
+			"images": [
+				{
+					"title": "digital",
+					"shareText": "Perfect for an outdoor wedding, this invitation design combines delicate typography with a simple sprig of foliage.",
+					"thumbImageUrl": "/images/collections/alison_detail_1.png",
+					"largeImageUrl": "/images/collections/alison_detail_1.png"
+				},
+				{
+					"title": "rsvp_1",
+					"size": "4bar",
+					"orientation": "horizontal",
+					"thumbImageUrl": "/images/collections/alison_detail_2.png",
+					"largeImageUrl": "/images/collections/alison_detail_2.png"
+				}
+			]
 		},
 		{
 			"name": "vivian",
 			"orientation": "vertical",
 			"size": "a7",
-			"descriptionHtml": "<p>Vivian is awesome too.</p>"
+			"descriptionHtml": "<p>Vivian’s design is festive and striking with layers of stripes reminiscent of hearts.</p><p>Vivian can be letterpressed or flat printed, and comes in the standard A7 size. Like all other invitation suites, it can be completely customized. </p>",
+			"images": [
+				{
+					"title": "digital",
+					"shareText": ">Vivian’s design is festive and striking with layers of stripes reminiscent of hearts.",
+					"thumbImageUrl": "/images/collections/vivian_detail_1.png",
+					"largeImageUrl": "/images/collections/vivian_detail_1.png"
+				},
+				{
+					"title": "rsvp_1",
+					"size": "4bar",
+					"orientation": "horizontal",
+					"thumbImageUrl": "/images/collections/vivian_detail_2.png",
+					"largeImageUrl": "/images/collections/vivian_detail_2.png"
+				}
+			]
 		},
 		{
 			"name": "emily",
@@ -113,12 +187,22 @@
 					"largeImageUrl": "/images/collections/emily_detail_1.png"
 				},
 				{
+					"title": "rsvp_1",
+					"size": "4bar",
+					"orientation": "vertical",
+					"thumbImageUrl": "/images/collections/emily_detail_5.png",
+					"largeImageUrl": "/images/collections/emily_detail_5.png"
+				},
+				{
 					"title": "photo",
+					"size": "a7",
 					"thumbImageUrl": "/images/collections/emily_thumb_2.png",
 					"largeImageUrl": "/images/collections/emily_detail_2.png"
 				},
 				{
 					"title": "photo2",
+					"size": "a7",
+					"shareText": "A striking image of a ruffled flower makes this invitation ideal for a sophisticated event.",
 					"thumbImageUrl": "/images/collections/emily_thumb_3.png",
 					"largeImageUrl": "/images/collections/emily_detail_3.png"
 				}
@@ -128,13 +212,96 @@
 			"name": "laura",
 			"orientation": "horizontal",
 			"size": "n10",
-			"descriptionHtml": "<p>Laura is awesome. Even inside a <strong>badass</strong> template.</p>"
+			"descriptionHtml": "<p>Two hearts and one arrow stand out in a collage of foliage, flowers and birds.</p><p>Laura  is available flat printed, and it’s long and thin shape is designed to fit in a #10 envelope (4”x 9”). Like all other invitation suites, it can be completely customized. </p>",
+			"images": [
+				{
+					"title": "digital",
+					"shareText": "Two hearts and one arrow stand out in a collage of foliage, flowers and birds.",
+					"thumbImageUrl": "/images/collections/laura_detail_1.png",
+					"largeImageUrl": "/images/collections/laura_detail_1.png"
+				},
+				{
+					"title": "rsvp_1",
+					"size": "4bar",
+					"orientation": "horizontal",
+					"thumbImageUrl": "/images/collections/laura_detail_2.png",
+					"largeImageUrl": "/images/collections/laura_detail_2.png"
+				}
+			]
 		},
 		{
 			"name": "emma",
-			"orientation": "vertical",
+			"orientation": "horizontal",
 			"size": "a7",
-			"descriptionHtml": "<p>Emma’s design of delicate leaves swaying in the breeze is romantic and lovely; perfect for an outdoor wedding.</p><p>Emma is available flat printed or letterpressed in 2 colors and comes in the A7 (5”x7”) size. Emma’s design can be completely customized. </p>"
+			"descriptionHtml": "<p>Emma’s design of delicate leaves swaying in the breeze is romantic and lovely; perfect for an outdoor wedding.</p><p>Emma is available flat printed or letterpressed in 2 colors and comes in the A7 (5”x7”) size. Emma’s design can be completely customized. </p>",
+			"images": [
+				{
+					"title": "digital",
+					"shareText": "Emma’s design of delicate leaves swaying in the breeze is romantic and lovely; perfect for an outdoor wedding.",
+					"thumbImageUrl": "/images/collections/emma_detail_2.png",
+					"largeImageUrl": "/images/collections/emma_detail_2.png"
+				},
+				{
+					"title": "rsvp_1",
+					"size": "4bar",
+					"orientation": "horizontal",
+					"thumbImageUrl": "/images/collections/emma_detail_1.png",
+					"largeImageUrl": "/images/collections/emma_detail_1.png"
+				}
+			]
+		}
+	],
+	"testimonials": [
+		{
+			"name": "Sarah Donner",
+			"quoteHtml": "<p>Miss Hargreaves handcrafted the invitations for my wedding. I absolutely adored them and received many compliments from my guests on her work. She was a joy to work with and provided many options to choose from. We narrowed down the choices until my husband and I were completely satisfied, which didn't take very long at all! Elizabeth clearly enjoys her craft. I've worked with her on posters, merchandise, and album art as well. Her spirit and style shine through her pieces, and I've loved everything she's ever designed for me.</p>",
+			"images": [
+				{
+					"title": "close up",
+					"thumbImageUrl": "/images/collections/sarahmichael_detail_1.png",
+					"largeImageUrl": "/images/collections/sarahmichael_detail_1.png"
+				},
+				{
+					"title": "close up",
+					"thumbImageUrl": "/images/collections/sarahmichael_detail_2.png",
+					"largeImageUrl": "/images/collections/sarahmichael_detail_2.png"
+				},
+				{
+					"title": "close up",
+					"thumbImageUrl": "/images/collections/sarahmichael_detail_4.png",
+					"largeImageUrl": "/images/collections/sarahmichael_detail_4.png"
+				},
+				{
+					"title": "close up",
+					"thumbImageUrl": "/images/collections/sarahmichael_detail_5.png",
+					"largeImageUrl": "/images/collections/sarahmichael_detail_5.png"
+				}
+			]
+		},{
+			"name": "Clare Mehta",
+			"quoteHtml": "<p>Working with Elizabeth of Martine Paper was a genuine pleasure. I really appreciated the personal touch she brought to designing my wedding invitations. She  talked with me extensively about my vision, and really took the time to understand what I wanted. The end result was nothing short of phenomenal. Elizabeth produced one of a kind invitations that really reflected myself and my partner. We got lots of positive feedback about our invitations from friends and family, and although I may be biased, I have yet to see invitations better than ours! I know that I would not been able to get such unique, high quality invitations or such dedicated service anywhere else. Martine paper comes highly recommended! </p>",
+			"images": [
+				{
+					"title": "close up",
+					"thumbImageUrl": "/images/collections/clarebrian_detail_3.png",
+					"largeImageUrl": "/images/collections/clarebrian_detail_3.png"
+				},
+				{
+					"title": "close up",
+					"thumbImageUrl": "/images/collections/clarebrian_detail_2.png",
+					"largeImageUrl": "/images/collections/clarebrian_detail_2.png"
+				},
+				{
+					"title": "close up",
+					"thumbImageUrl": "/images/collections/clarebrian_detail_4.png",
+					"largeImageUrl": "/images/collections/clarebrian_detail_4.png"
+				},
+				{
+					"title": "close up",
+					"thumbImageUrl": "/images/collections/clarebrian_detail_6.png",
+					"largeImageUrl": "/images/collections/clarebrian_detail_6.png"
+				}
+			]
 		}
 	]
 }

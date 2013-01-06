@@ -36,7 +36,7 @@
           </div>
           <div class="span10">
             <div class="row">
-              <div id="invitation-detail-image-container" class="span6">
+              <div id="invitation-detail-image-container" class="span6 invitation-detail-image-container">
                 <img class="invitation-detail-image invitation-detail-{{size}}-{{orientation}}" src="/images/collections/{{name}}_detail_1.png" alt="">
               </div>
               <div class="span4">
@@ -52,8 +52,8 @@
                 <div class="row">
                   <div class="span image-thumbnails">
                     {{#each images}}
-                    <a data-detail-size="{{../size}}" data-detail-orientation="{{../orientation}}" href="#">
-                      <img class="image-thumbnail" src="{{thumbImageUrl}}" data-detail-image="{{largeImageUrl}}" alt="">
+                    <a data-detail-size="{{size}}" data-detail-orientation="{{orientation}}" href="#">
+                      <img class="image-thumbnail-{{size}}-{{orientation}}" src="{{thumbImageUrl}}" data-detail-image="{{largeImageUrl}}" alt="">
                     </a>
                     {{/each}}
                   </div>

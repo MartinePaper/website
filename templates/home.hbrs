@@ -57,7 +57,7 @@
 
       <div id="subheads" class="row-fluid">
         <div id="left" class="span4 margin">
-         <a href="#" class="thumbnail">
+         <a href="/process" class="thumbnail">
             <img src="/images/designservices.png" alt="">
           </a>
           <h3 class="subhead">Design Services</h3>
@@ -66,8 +66,8 @@
         </div>
 
         <div id="middle" class="span4 margin" >
-          <a href="#" class="thumbnail">
-            <img src="http://placehold.it/240x160" alt="">
+          <a href="/testimonials" class="thumbnail">
+            <img src="/images/testimonials.png" alt="">
           </a>
 
           <h3 class="subhead">Testimonials</h3>
@@ -75,7 +75,7 @@
         </div>
 
         <div id="right" class="span4 margin">
-          <a href="#" class="thumbnail">
+          <a href="http://pinterest.com/martinepaper/" target="_blank" class="thumbnail">
             <img src="/images/pinterest.png" alt="">
           </a>
           <h3 class="subhead">Pinterest</h3>
