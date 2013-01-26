@@ -56,12 +56,24 @@ a.carousel-control:visited {
   margin-top: 30px;
 }
 
+.main-page-title  {
+  margin-top: 20px;
+}
+
+.main-page-title img {
+  position: relative;
+  left: 600px;
+  margin-left: -50%;
+  width: 570px;
+  height: 51px;
+}
+
 .center-content{
   text-align: center; 
 }
 
 .margin{
-  padding:40px;
+  padding: 20px 40px;
 }
 
 .horizontal-margin{
@@ -348,4 +360,12 @@ a.carousel-control:visited {
   margin: 10px 0 20px 40px; 
   width: auto; 
   height: 300px;
+}
+
+.letter-closing {
+  margin-top: 40px;
+}
+
+.story-signature {
+  width: 250px;
 }
