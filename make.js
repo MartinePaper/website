@@ -73,7 +73,7 @@ for (i = 0; i < invitations.length; i++) {
 			img.size = img.size || invitation.size;
 			img.orientation = img.orientation || invitation.orientation;
 			if (img.shareText) {
-				invitation.shareImageUrl = img.largeImageUrl;
+				invitation.shareImageUrl = 'http://martinepaper.com' + img.largeImageUrl;
 				invitation.shareImageUrlEncoded = encodeURIComponent(invitation.shareImageUrl);
 				invitation.shareText = img.shareText;
 				invitation.shareTextEncoded = encodeURIComponent(invitation.shareText);

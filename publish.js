@@ -16,7 +16,7 @@ var s3 = new S3({
     'region' : amazon.US_EAST_1
 });
 
-var bucket = 'www.martinepaper.com';
+var bucket = 'martinepaper.com';
 
 var ignore_dirs = ['node_modules', '.git', '.gitignore', '.DS_Store'];
 
