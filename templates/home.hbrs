@@ -2,22 +2,7 @@
 <html lang="en">
 
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Website : " />
-
-
-    <link rel="stylesheet" type="text/css"  href="/bootstrap/css/bootstrap.css">
-
-    <link rel="stylesheet" href="/font/aviano-sans/stylesheet.css" type="text/css" charset="utf-8">
-    <link rel="stylesheet" href="/font/sofiapro_light/stylesheet.css" type="text/css" charset="utf-8">
-
-    <link rel="stylesheet" href="/stylesheets/font-awesome.css">
-
-    <link rel="stylesheet" type="/text/css" href="stylesheets/stylesheet.css">
-
-    <title>MartinePaper | Custom Designed Wedding Invitations | Chicago, IL</title>
-
+{{{headHtml}}}
   </head>
 
   <body>

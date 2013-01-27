@@ -7,6 +7,8 @@ var Handlebars = require('handlebars');
 var mkdirp = require('mkdirp');
 var config = require('./config.json');
 
+var headTemplate = Handlebars.compile(fs.readFileSync('./templates/head.hbrs').toString());
+
 var headerTemplate = Handlebars.compile(fs.readFileSync('./templates/header.hbrs').toString());
 
 var homeTemplate = Handlebars.compile(fs.readFileSync('./templates/home.hbrs').toString());
@@ -87,20 +89,20 @@ for (i = 0; i < invitations.length; i++) {
 	invitation.isVertical = invitation.orientation === 'vertical';
 	invitation.isHorizontal = invitation.orientation === 'horizontal';
 
-	createPage(invitationTemplate, invitation, './collections/' + invitation.name);
+	createPage(invitationTemplate, invitation, './collections/' + invitation.name, 'The ' + invitation.nameUpperCase + ' Invitation');
 }
 
-createPage(collectionsTemplate, { rows: invitationGrid, activeNav: 'collections' }, './collections');
+createPage(collectionsTemplate, { rows: invitationGrid, activeNav: 'collections' }, './collections', 'Collections');
 
 createPage(homeTemplate, featured, './');
 
-createPage(contactTemplate, { activeNav: 'about' }, './contact');
+createPage(contactTemplate, { activeNav: 'about' }, './contact', 'Contact Me');
 
-createPage(processTemplate, { activeNav: 'design' }, './process');
+createPage(processTemplate, { activeNav: 'design' }, './process', 'Process');
 
-createPage(faqTemplate, { activeNav: 'design' }, './faq');
+createPage(faqTemplate, { activeNav: 'design' }, './faq', 'FAQ');
 
-createPage(priceTemplate, { activeNav: 'design' }, './prices');
+createPage(priceTemplate, { activeNav: 'design' }, './prices', 'Prices');
 
 var testimonials = config.testimonials;
 
@@ -111,23 +113,24 @@ for (i = 0; i < testimonials.length; i++) {
 	testimonial.index = i;
 }
 
-createPage(testimonialsTemplate, { activeNav: 'design', testimonials: testimonials }, './testimonials');
+createPage(testimonialsTemplate, { activeNav: 'design', testimonials: testimonials }, './testimonials', 'Testimonials');
 
-createPage(mystoryTemplate, { activeNav: 'about' }, './my-story');
+createPage(mystoryTemplate, { activeNav: 'about' }, './my-story', 'My Story');
 
-function createPage(template, pageData, relativePath, name) {
+function createPage(template, pageData, relativePath, title, filename) {
 	pageData.activeNav = pageData.activeNav || 'home';
 	pageData.headerHtml = pageData.headerHtml || headerTemplate( { active: pageData.activeNav } );
+	pageData.headHtml = headTemplate( { title: title ? title + ' | ' : '' } );
 
 	var pageHtml = template(pageData);
 
-	name = name || 'index.html';
+	filename = filename || 'index.html';
 	mkdirp(relativePath, function(err) {
 		if(err) {
 			console.error(err);
 			return;
 		}
-		var filePath = path.join(relativePath, name);
+		var filePath = path.join(relativePath, filename);
 		fs.writeFile(filePath, pageHtml, function(err) {
 			if(err) {
 				console.error(err);
