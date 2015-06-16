@@ -22,7 +22,7 @@ To do both together (apply a change and view it), run this in your terminal wind
 ```
 $ ./make.js; static
 ```
-
+Then when you are done (or want to make another change), hit `control-C` to get back to the terminal prompt.
 
 To publish to the web, open a terminal windwo and type:
 
