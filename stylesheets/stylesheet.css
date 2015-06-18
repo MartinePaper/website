@@ -1,6 +1,7 @@
 html { background: transparent }
 
 body{
+  margin: 0 auto;
   background-image: url('../images/lyonnette.png');
   font-family: SofiaProLightRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #888;
@@ -40,6 +41,8 @@ a.carousel-control:visited {
   background: white;
   padding-top: 20px;
   padding-bottom: 40px;
+  max-width: 980px;
+  margin: 0 auto;
 }
 
 #menu {
@@ -105,6 +108,10 @@ a.carousel-control:visited {
   margin: 0px 100px;
 }
 
+#collections  {
+  margin: 0 auto;
+}
+
 .collections-row {
   margin: 0;
 }
@@ -118,6 +125,14 @@ a.carousel-control:visited {
   display: block;
   width: 100%;
   text-align: center;
+}
+
+.carousel-inner .item {
+  width: 100%;
+}
+
+#invitationCarousel {
+  margin: 0 auto;
 }
 
 #invitation-detail {
