@@ -23,11 +23,7 @@
         <div class="span6 offset1 horizontal-margin">
           <address>
             Elizabeth Hargreaves<br>
-            Martine Paper<br>
-            Studio 208<br>
-            355 North Laflin Street<br>
-            Chicago, Illinois 60607<br>
-            <em>-- hours by appointment --</em>
+            Chicago, Illinois<br>
           </address>
 
           <p> <a href="mailto:eh@martinepaper.com">eh@martinepaper.com</a><br>
@@ -36,6 +32,8 @@
         </div>
       </div>
 
+
+      <!--
       <div class="row-fluid">
         <div class="span10 horizontal-margin">
           
@@ -66,7 +64,7 @@
           var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
           })(document, 'script');</script>
         </div>
-      </div>
+      </div> -->
 
     </div>
 

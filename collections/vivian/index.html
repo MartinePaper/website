@@ -4,12 +4,13 @@
   <head>
     <meta charset='utf-8' />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Martine Paper - Custom Designed Wedding Invitations, Chicago, IL" />
     
-    <link rel="stylesheet" type="text/css"  href="/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css"  href="/stylesheets/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="/font/aviano-sans/stylesheet.css" charset="utf-8">
     <link rel="stylesheet" type="text/css" href="/font/sofiapro_light/stylesheet.css" charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="/stylesheets/font-awesome.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">    
     <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css">
 
     <title>MartinePaper | The Vivian Invitation | Custom Designed Wedding Invitations | Chicago, IL</title>
@@ -36,73 +37,110 @@
         <div id="header" class="row-fluid">
   <div class="span12 center-content">
     <a href="/">
-      <img src="/images/logohome.png" width="160" height="auto">
+      <img src="/images/logohome2.png" width="175" height="auto">
     </a>
   </div>
 </div>
 
 
-<div id="menu" class="navbar">
-  <div class="navbar-inner">
-    <ul class="nav">
-      <li class="dropdown">
-        <a href="/collections">collections</a>
-      </li>
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-          design services
-          <b class="caret"></b>
-        </a>
-        <ul class="dropdown-menu">
-          <li>
-            <a href="/process">the process</a>
-          </li>
-          <li>
-            <a href="/prices">prices</a>
-          </li>
-          <li>
-            <a href="/testimonials">testimonials</a>
-          </li>
-          <li>
-            <a href="/faq">F.A.Q.</a>
-          </li>
-        </ul>
-      </li>
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-          about
-          <b class="caret"></b>
-        </a>
-        <ul class="dropdown-menu">
-          <li>
-            <a href="/my-story">my story</a>
-          </li>
-          <li>
-            <a href="/contact">contact me</a>
-          </li>
-        </ul>
-      </li>
-    </ul>
+<nav id="menu" class="navbar navbar-default">
+  <div class="container-fluid">
+     <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
 
-    <ul id="social-links" class="nav pull-right">
-      <li>
-        <a href="http://pinterest.com/martinepaper/" target="_blank" alt="Follow Me on Pinterest">
-          <i class="icon-pinterest"></i>
-        </a>
-      </li>
-      <li>
-        <a href="https://twitter.com/MartinePaper" target="_blank" alt="Follow Me on Twitter">
-          <i class="icon-twitter"></i>
-        </a>
-      </li>
-      <li>
-        <a href="http://martinepaper.tumblr.com/" target="_blank" alt="Follow Me on Tumblr" style="margin-top: -4px;">
-          <img src="http://platform.tumblr.com/v1/share_4T.png" style="width: 20px; height:20px;">
-        </a>
-      </li>
-    </ul>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="/collections">collections</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">design services<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/process">the process</a></li>
+            <li><a href="/prices">prices</a></li>
+            <li><a href="/testimonials">testimonials</a></li>
+            <li><a href="/faq">F.A.Q.</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/my-story">my story</a></li>
+            <li><a href="/contact">contact me</a></li>
+          </ul>
+        </li>
+      </ul>
+
+        <!--
+        <ul class="nav">
+          <li class="dropdown">
+            <a href="/collections">collections</a>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              design services
+              <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="/process">the process</a>
+              </li>
+              <li>
+                <a href="/prices">prices</a>
+              </li>
+              <li>
+                <a href="/testimonials">testimonials</a>
+              </li>
+              <li>
+                <a href="/faq">F.A.Q.</a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              about
+              <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="/my-story">my story</a>
+              </li>
+              <li>
+                <a href="/contact">contact me</a>
+              </li>
+            </ul>
+          </li>
+        </ul> -->
+
+      <ul id="social-links" class="nav navbar-right">
+        <li>
+          <a href="http://pinterest.com/martinepaper/" target="_blank" alt="Follow Me on Pinterest">
+            <i class="fa fa-pinterest navbar-link"></i>
+          </a>
+        </li>
+      </ul>
+      <ul id="social-links" class="nav navbar-right">
+        <li>
+          <a href="https://twitter.com/MartinePaper" target="_blank" alt="Follow Me on Twitter">
+            <i class="fa fa-twitter navbar-link"></i>
+          </a>
+        </li>
+      </ul>
+      <ul id="social-links" class="nav navbar-right">
+        <li>
+          <a href="https://twitter.com/MartinePaper" target="_blank" alt="Follow Me on Facebook">
+            <i class="fa fa-facebook navbar-link"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
-</div>
+</nav>
       </div>
 
       <section id="invitation-detail-section" data-section-layout-orientation="vertical">
