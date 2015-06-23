@@ -11,56 +11,40 @@
       <div id="header-container">
         {{{headerHtml}}}
       </div>
-      <!--
-      <div id="collections" class="carousel slide" data-ride="carousel">
 
-        < Wrapper for slides -->
-        <!--
+      
+      <div id="invitation-carousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          {{#each invitations}}
+          {{#if featured}}
+          <li data-target="#invitation-carousel" data-slide-to="{{@index}}" ></li>
+          {{/if}}
+          {{/each}}
+        </ol>
+        <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             {{#each invitations}}
             {{#if featured}}
-          <div class="item active">
-            <a href="/collections/"> <img src="{{featuredImageUrl}}" alt="..."></a>
-            <div class="carousel-caption">
-              this is a caption
+            <div class="item">
+              <a href="/collections/"> <img class="carousel-image" src="{{featuredImageUrl}}" alt="..."></a>
+              <div class="carousel-caption">
+              </div>
             </div>
-          </div>
-          {{/if}}
-          {{/each}}
-        </div>-->
+              {{/if}}
+            {{/each}}
+        </div>
 
         <!-- Controls -->
-        <!--
-        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <a class="left carousel-control" href="#invitation-carousel" role="button" data-slide="prev">
           <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
-        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <a class="right carousel-control" href="#invitation-carousel" role="button" data-slide="next">
           <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-      </div> -->
-
-      <!--
-      <div id="collections" class="row">
-        <div class="col-md-12">
-          <div id="invitationCarousel" class="carousel slide margin">
-             Carousel items --> <!--
-            <div class="carousel-inner">
-              {{#each invitations}}
-              {{#if featured}}
-              <div class="item">
-                <a href="/collections/"><img src="{{featuredImageUrl}}" alt=""></a>
-              </div>
-              {{/if}}
-              {{/each}}
-            </div>
-           Carousel nav --> <!--
-            <a class="carousel-control left" href="#invitationCarousel" data-slide="prev">&lsaquo;</a>
-            <a class="carousel-control right" href="#invitationCarousel" data-slide="next">&rsaquo;</a>
-          </div>
-        </div>
-      </div> -->
+      </div>
 
 
       <div id="subheads" class="row">
@@ -85,15 +69,16 @@
       
     </div>
 
-    <!--
-    <script>
-    $('#invitationCarousel .item').first().addClass('active');
-      $('.carousel').carousel();
-    </script> -->
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="javascripts/bootstrap.min.js"></script>
 
+    <script>
+      $('#invitation-carousel .carousel-inner .item').first().addClass('active');
+      $('#invitation-carousel .carousel-indicators li').first().addClass('active');
+      //$('.carousel').carousel();
+    </script>
   </body>
 </html>

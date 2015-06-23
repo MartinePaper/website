@@ -8,8 +8,8 @@
     <meta name="description" content="Martine Paper - Custom Designed Wedding Invitations, Chicago, IL" />
     
     <link rel="stylesheet" type="text/css"  href="/stylesheets/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="/font/aviano-sans/stylesheet.css" charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="/font/sofiapro_light/stylesheet.css" charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/fonts/aviano-sans/stylesheet.css" charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/fonts/sofiapro_light/stylesheet.css" charset="utf-8">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">    
     <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css">
 
@@ -99,101 +99,77 @@
   </div>
 </nav>
       </div>
-      <!--
-      <div id="collections" class="carousel slide" data-ride="carousel">
 
-        < Wrapper for slides -->
-        <!--
+      
+      <div id="invitation-carousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+
+          
+          
+          <li data-target="#invitation-carousel" data-slide-to="0" ></li>
+          
+          
+          
+          <li data-target="#invitation-carousel" data-slide-to="1" ></li>
+          
+          
+          
+          <li data-target="#invitation-carousel" data-slide-to="2" ></li>
+          
+          
+          
+          <li data-target="#invitation-carousel" data-slide-to="3" ></li>
+          
+          
+        </ol>
+        <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             
             
-          <div class="item active">
-            <a href="/collections/"> <img src="/images/collections/kelly-9-carousel.png" alt="..."></a>
-            <div class="carousel-caption">
-              this is a caption
+            <div class="item">
+              <a href="/collections/"> <img class="carousel-image" src="/images/collections/kelly-9-carousel.png" alt="..."></a>
+              <div class="carousel-caption">
+              </div>
             </div>
-          </div>
-          
-          
+              
             
-          <div class="item active">
-            <a href="/collections/"> <img src="/images/collections/catherine-9-carousel.png" alt="..."></a>
-            <div class="carousel-caption">
-              this is a caption
-            </div>
-          </div>
-          
-          
             
-          <div class="item active">
-            <a href="/collections/"> <img src="/images/collections/kristin-3-carousel.png" alt="..."></a>
-            <div class="carousel-caption">
-              this is a caption
+            <div class="item">
+              <a href="/collections/"> <img class="carousel-image" src="/images/collections/catherine-9-carousel.png" alt="..."></a>
+              <div class="carousel-caption">
+              </div>
             </div>
-          </div>
-          
-          
+              
             
-          <div class="item active">
-            <a href="/collections/"> <img src="/images/collections/emily-10-carousel.png" alt="..."></a>
-            <div class="carousel-caption">
-              this is a caption
+            
+            <div class="item">
+              <a href="/collections/"> <img class="carousel-image" src="/images/collections/kristin-3-carousel.png" alt="..."></a>
+              <div class="carousel-caption">
+              </div>
             </div>
-          </div>
-          
-          
-        </div>-->
+              
+            
+            
+            <div class="item">
+              <a href="/collections/"> <img class="carousel-image" src="/images/collections/emily-10-carousel.png" alt="..."></a>
+              <div class="carousel-caption">
+              </div>
+            </div>
+              
+            
+        </div>
 
         <!-- Controls -->
-        <!--
-        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <a class="left carousel-control" href="#invitation-carousel" role="button" data-slide="prev">
           <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
-        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <a class="right carousel-control" href="#invitation-carousel" role="button" data-slide="next">
           <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-      </div> -->
-
-      <!--
-      <div id="collections" class="row">
-        <div class="col-md-12">
-          <div id="invitationCarousel" class="carousel slide margin">
-             Carousel items --> <!--
-            <div class="carousel-inner">
-              
-              
-              <div class="item">
-                <a href="/collections/"><img src="/images/collections/kelly-9-carousel.png" alt=""></a>
-              </div>
-              
-              
-              
-              <div class="item">
-                <a href="/collections/"><img src="/images/collections/catherine-9-carousel.png" alt=""></a>
-              </div>
-              
-              
-              
-              <div class="item">
-                <a href="/collections/"><img src="/images/collections/kristin-3-carousel.png" alt=""></a>
-              </div>
-              
-              
-              
-              <div class="item">
-                <a href="/collections/"><img src="/images/collections/emily-10-carousel.png" alt=""></a>
-              </div>
-              
-              
-            </div>
-           Carousel nav --> <!--
-            <a class="carousel-control left" href="#invitationCarousel" data-slide="prev">&lsaquo;</a>
-            <a class="carousel-control right" href="#invitationCarousel" data-slide="next">&rsaquo;</a>
-          </div>
-        </div>
-      </div> -->
+      </div>
 
 
       <div id="subheads" class="row">
@@ -218,15 +194,16 @@
       
     </div>
 
-    <!--
-    <script>
-    $('#invitationCarousel .item').first().addClass('active');
-      $('.carousel').carousel();
-    </script> -->
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="javascripts/bootstrap.min.js"></script>
 
+    <script>
+      $('#invitation-carousel .carousel-inner .item').first().addClass('active');
+      $('#invitation-carousel .carousel-indicators li').first().addClass('active');
+      //$('.carousel').carousel();
+    </script>
   </body>
 </html>
