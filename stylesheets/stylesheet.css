@@ -105,14 +105,8 @@ a.carousel-control:visited {
   padding: 20px 0px 20px 10px;
 }
 
-
 .center-content{
   text-align: center; 
-}
-
-
-.horizontal-margin{
-  padding: 0 40px;
 }
 
 .subhead{
@@ -313,15 +307,6 @@ a.carousel-control:visited {
 
 .row-section {
   margin-top: 30px;
-}
-
-.row-faq-section h5 {
-  text-align: right;
-  margin-top: 0;
-}
-
-.row-faq-section h2 {
-  margin-top: 0;
 }
 
 .faq-first-question {
