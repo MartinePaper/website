@@ -45,9 +45,22 @@ a.carousel-control:visited {
 }
 
 #menu {
-  margin: 30px 20px 0 20px;
+  margin: 0 auto;
   font-family: AvianoSansLight, Arial, sans-serif;
   text-transform: uppercase;
+  max-width: 1000px;
+  background-color: white;
+  border: none;
+}
+
+.main-page-style {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.divider {
+  border-bottom: 1px dotted gray;
+  margin-bottom: 10px;
 }
 
 #breadcrumbs {
@@ -70,13 +83,33 @@ a.carousel-control:visited {
   height: 51px;
 }
 
+#invitation-carousel {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#thumbnails {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#left {
+  padding: 20px 10px 20px 0px;
+}
+
+#middle {
+  padding: 20px 10px 20px 10px;
+}
+
+#right {
+  padding: 20px 0px 20px 10px;
+}
+
+
 .center-content{
   text-align: center; 
 }
 
-.margin{
-  padding: 20px 40px;
-}
 
 .horizontal-margin{
   padding: 0 40px;
@@ -155,9 +188,6 @@ a.carousel-control:visited {
   text-align: center;
 }
 
-.invitation-picture-frame {
-
-}
 
 .image-thumbnail {
   width: 60px;
@@ -314,6 +344,10 @@ a.carousel-control:visited {
 
 #pricing-included-list li:before{
   content: "\00BB \0020";
+}
+
+.vertical-align {
+  vertical-align: middle;
 }
 
 .share-links a {

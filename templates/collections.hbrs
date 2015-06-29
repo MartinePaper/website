@@ -7,23 +7,23 @@
 
   <body>
 
-    <div id="main" class="container">
+    <div id="main" class="container-fluid">
       <div id="header-container">
         {{{headerHtml}}}
       </div>
 
-      <div class="row-fluid horizontal-margin page-title">
-        <div class="span12">
+      <div class="row horizontal-margin page-title">
+        <div class="col-md-12">
           <h2>Collections</h2>
         </div>
       </div>
 
 
-      <div id="collections" class="row-fluid">
-        <div class="span12">
+      <div id="collections" class="row">
+        <div class="col-md-12">
           {{#each rows}}
-          <div class="row-fluid collections-row">
-            <div class="span10 offset1">
+          <div class="row collections-row">
+            <div class="col-md-10 col-md-offset-1">
               {{#each invitations}}
               <div class="collections-item">
                 <a href="/collections/{{name}}">
@@ -39,7 +39,10 @@
       </div>
     </div>
 
-
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="javascripts/bootstrap.min.js"></script>
 
   </body>
 </html>

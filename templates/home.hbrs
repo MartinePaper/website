@@ -47,20 +47,20 @@
       </div>
 
 
-      <div id="subheads" class="row">
-        <div id="left" class="col-md-4 margin">
-         <a href="/process"><img class="img-responsive" src="/images/istock_fpo_690px.png" alt=""></a>
+      <div id="thumbnails" class="row">
+        <div id="left" class="col-md-4">
+         <a href="/process"><img class="img-responsive" src="/images/designservices2.png" alt=""></a>
           <h3 class="subhead">Design Services</h3>
           <p>Find out about the custom design services offered by MartinePaper.</p>
         </div>
 
-        <div id="middle" class="col-md-4 margin" >
+        <div id="middle" class="col-md-4" >
           <a href="/testimonials"><img class="img-responsive" src="/images/fpo_testimonial2_660px.png" alt=""></a>
           <h3 class="subhead">Testimonials</h3>
           <p>See what others have to say about MartinePaper!</p>
         </div>
 
-        <div id="right" class="col-md-4 margin">
+        <div id="right" class="col-md-4">
           <a href="http://pinterest.com/martinepaper/"><img class="img-responsive" src="/images/fpo_pinterest_660px.png" alt=""></a>
           <h3 class="subhead">Pinterest</h3>
           <p>Follow MartinePaper on Pinterest and see what is inspiring us.</p>

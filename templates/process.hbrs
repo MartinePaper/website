@@ -7,23 +7,95 @@
 
   <body>
 
-    <div id="main" class="container">
+    <div id="main" class="container-fluid">
       <div id="header-container">
         {{{headerHtml}}}
       </div>
 
-      <div class="row-fluid">
+      <div class="main-page-style container-fluid">
+        <div class="row divider">
+          <h2>The Process</h2>
+          <p>From initial contact to final sign off (not including printing) for a customized design please allow about 5-6 weeks.</p>
+        </div>
+        <div class="row divider">
+          <div class="col-md-3">
+            <h5>Contact Me</h5>
+          </div>
+          <div class="col-md-8">
+            <p>To start the process either give me a call or fill out the form on the <a href="/contact">contact page</a> to tell me about you and your order.  I will contact you within 1-2 business days. </p>
+          </div>
+        </div>
+
+        <div class="row divider">
+          <div class="col-md-3">
+            <h5>Getting to know you</h5>
+          </div>
+          <div class="col-md-8">
+            <p>Once I’ve received your request, I will contact you to discuss your order. Getting to know you and providing you with one-on-one attention is a priority. Knowing as much as I can about your ideas for your special occasion enables me to provide you with the best design solution. This is also one of the best parts of my job! I absolutely love hearing all about your wedding and your ideas.</p>
+          </div>
+        </div>
+
+        <div class="row divider">
+          <div class="col-md-3">
+            <h5>Deposit</h5>
+          </div>
+          <div class="col-md-8">
+            <p>Once you are ready to move forward, a $250 non-refundable deposit is needed to begin the design process. the deposit is applied towards the final cost of the invitation suite.</p>
+          </div>
+        </div>
+
+        <div class="row divider">
+          <div class="col-md-3">
+            <h5>The Design</h5>
+          </div>
+          <div class="col-md-8">
+            <p>I will provide you with 2 design ideas within 3 weeks of our initial consultation. You will have three rounds of revisions before we finalize a design.</p>
+          </div>
+        </div>
+
+        <div class="row divider">
+          <div class="col-md-3">
+            <h5>Final Proof and Approval</h5>
+          </div>
+          <div class="col-md-8">
+            <p>I will send you a final proof via PDF for you to review and sign off. At that time I will collect payment. (check and/or paypal payment) Illinois sales tax will be applied to all orders within illinois. The $250 deposit paid at the beginning of the process will be applied towards the total.</p>
+          </div>
+        </div>
+
+        <div class="row divider">
+          <div class="col-md-3">
+            <h5>Printing</h5>
+          </div>
+          <div class="col-md-8">
+            <p>Final invitations can take between 4-7 weeks to be printed and delivered depending on the complexity of the order. Due to the handcrafted nature of letterpress printing, the lead time is considerably more than with flat printing. For flat printing allow 3-4 weeks for production. Rush orders can sometimes be accommodated. </p>
+            <p>Keep in mind that the recommended mailing date for invitations is 8 to 10 weeks prior to the event date; for save the dates 6 to 8 months before the wedding date.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+            <h5>Shipping and Delivery</h5>
+          </div>
+          <div class="col-md-8">
+            <p>Invitations are shipped via USPS priority mail with insurance and tracking number. If you live in the chicago area I can arrange for pick-up or even personal delivery.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!--
+      <div class="row">
         <div class="span horizontal-margin page-title">
           <h2>The Process</h2>
           <p>From initial contact to final sign off (not including printing) for a customized design please allow about 5-6 weeks.</p>
         </div>
       </div>
 
-      <div class="row-fluid row-faq-section">
-        <div class="span3 horizontal-margin">
+      <div class="row row-faq-section">
+        <div class="col-md-3 horizontal-margin">
           <h5>Contact Me</h5>
         </div>
-        <div class="span6">
+        <div class="col-md-6">
           <p>To start the process either give me a call or fill out the form on the <a href="/contact">contact page</a> to tell me about you and your order.  I will contact you within 1-2 business days. </p>
           
           <p>If you have other questions, fill out the form as best you can, and we can go from there! </p>
@@ -84,10 +156,14 @@
         <div class="span6">
           <p>Invitations are shipped via USPS priority mail with insurance and tracking number. If you live in the chicago area I can arrange for pick-up or even personal delivery.</p>
         </div>
-      </div>
+      </div> -->
 
     </div>
 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="javascripts/bootstrap.min.js"></script>
 
 
   </body>
