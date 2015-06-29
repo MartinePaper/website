@@ -7,12 +7,45 @@
 
   <body>
 
-    <div id="main" class="container">
+    <div id="main" class="container-fluid">
       <div id="header-container">
         {{{headerHtml}}}
       </div>
 
-      <div class="row-fluid">
+      <div class="main-page-style">
+        {{#each testimonials}}
+        {{#if notFirst}}
+        <div class="row row-section-spacer">
+          <hr>
+        </div>
+        {{/if}}
+        <div class="row">
+          <div class="col-md-5">
+            <div id="invitation-detail-image-container-{{index}}" class="invitation-detail-image-container">
+              <img class="invitation-detail-image invitation-detail-a7-vertical" src="{{defaultImageUrl}}" alt="">
+            </div>
+            <div class="image-thumbnails testimonial-thumbnails-container">
+                <div class="testimonial-thumbnails">
+                  {{#each images}}
+                  <a data-detail-size="a7" data-detail-orientation="vertical" href="#">
+                    <img class="image-thumbnail" src="{{thumbImageUrl}}" data-detail-image="{{largeImageUrl}}" data-detail-target-id="invitation-detail-image-container-{{../index}}" alt="">
+                  </a>
+                  {{/each}}
+                </div>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <blockquote class="testimonial">
+              {{{quoteHtml}}}
+              <p class="pull-right cite"><cite>{{name}}</cite></p>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!--
+      <div class="row">
         <div class="span horizontal-margin page-title">
           <h2>Testimonials</h2>
           <p></p>
@@ -55,7 +88,7 @@
           </blockquote>
         </div>
       </div>
-      {{/each}}
+      {{/each}} -->
 
   
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
