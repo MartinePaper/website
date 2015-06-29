@@ -50,6 +50,10 @@ a.carousel-control:visited {
   text-transform: uppercase;
   max-width: 1000px;
   background-color: white;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.navbar-default {
   border: none;
 }
 
