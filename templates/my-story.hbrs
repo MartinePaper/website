@@ -7,11 +7,33 @@
 
   <body>
 
-    <div id="main" class="container">
+    <div id="main" class="container-fluid">
       <div id="header-container">
         {{{headerHtml}}}
       </div>
 
+      <div class="main-page-style container-fluid">
+        <div class="row">
+          <h2>My Story</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <img src="/images/profile-wedding.png" class="img-polaroid img-text-flow-left" />
+            <p>My name is Elizabeth Hargreaves. I started Martine Paper because I love creating beautiful, tangible things that will make people smile.</p>
+            <p>I have always had a passion for making things out of paper. When I was little I would make little books for my barbies to read and father’s day cards with crayon and cut paper. As I got older the cards got more elaborate, as did my paintings and drawings. I knew art would always be a big part of my life, but I didn’t know yet if it would be my career.</p>
+            <p>In college, I discovered graphic design. It just made sense. I earned my BFA in Graphic Design from the New England School of Art & Design. I spent the next 8 years working professionally for small design boutiques, publishers and a large, national non-profit. </p>
+            <p>When I got engaged, I couldn’t wait to make my own wedding invitations. Then I made ones for my friends. I loved the creative freedom and the satisfaction of bringing a bride’s vision to life. I realized I could make a living doing what I love. </p>
+            <p>Leaving the corporate world to build my own business was terrifying and exhilarating. Seeing the success of other independent women artists inspired me and gave me the confidence that I could do this too.</p>
+            <img src="/images/mom-dad-wedding.png" class="img-polaroid img-text-flow-right" />
+            <p>Martine Paper is named after my mom, who was a strong, independent and stylish woman. Born and raised in France, she had a european sensibility that showed in her manners and her style. She had a refined sense of the way things ought to be. She was pragmatic. She made her own simple and chic wedding dress, and then decades later made mine. I lost her to cancer in the spring of 2009. To honor everything she taught me, I named my business after her. </p>
+            <p>Beyond MartinePaper, I enjoy spending time with my husband Ben, our two cats (Henry and Matilda) and our dog, Hector. I love travelling, exploring all the great restaurants in Chicago and working on my oil painting. I’m always learning, and love taking classes at LillStreet and the Old Town School of Folk Music. </p>
+            <p class="letter-closing">Yours Truly,</p>
+            <p><img src="/images/signature.png" class="story-signature" /></p>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!--
       <div class="row-fluid">
         <div class="span horizontal-margin page-title">
           <h2>My Story</h2>
@@ -44,7 +66,7 @@
 		</div>
       </div>
 
-    </div>
+    </div> -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
