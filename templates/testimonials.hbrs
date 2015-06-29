@@ -12,7 +12,10 @@
         {{{headerHtml}}}
       </div>
 
-      <div class="main-page-style">
+      <div class="main-page-style container-fluid">
+        <div class="row">
+          <h2>Testimonials</h2>
+        </div>
         {{#each testimonials}}
         {{#if notFirst}}
         <div class="row row-section-spacer">
