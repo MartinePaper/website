@@ -12,29 +12,27 @@
         {{{headerHtml}}}
       </div>
 
-      <div class="row horizontal-margin page-title">
-        <div class="col-md-12">
+      <div class="main-page-style container-fluid">
+        <div class="row">
           <h2>Collections</h2>
         </div>
-      </div>
-
-
-      <div id="collections" class="row">
-        <div class="col-md-12">
-          {{#each rows}}
-          <div class="row collections-row">
-            <div class="col-md-10 col-md-offset-1">
-              {{#each invitations}}
-              <div class="collections-item">
-                <a href="/collections/{{name}}">
-                  <img src="/images/collections/{{name}}_preview.png" alt="">
-                  <span class="collections-caption">{{nameUpperCase}}</span>
-                </a>
+        <div id="collections" class="row">
+          <div class="col-md-12">
+            {{#each rows}}
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                {{#each invitations}}
+                <div class="collections-item">
+                  <a href="/collections/{{name}}">
+                    <img src="/images/collections/{{name}}_preview.png" alt="">
+                    <span class="collections-caption">{{nameUpperCase}}</span>
+                  </a>
+                </div>
+                {{/each}}
               </div>
-              {{/each}}
             </div>
+            {{/each}}
           </div>
-          {{/each}}
         </div>
       </div>
     </div>
