@@ -7,30 +7,46 @@
 
   <body>
 
-    <div id="main" class="container">
+    <div id="main" class="container-fluid">
       <div id="header-container">
         {{{headerHtml}}}
       </div>
 
-      <div class="row-fluid">
-        <div class="span horizontal-margin page-title">
+      <div class="main-page-style container-fluid">
+        <div class="row">
           <h2>Contact Me</h2>
           <p>Hello! I look forward to hearing from you!</p>
         </div>
-      </div>
-
-      <div class="row-fluid">
-        <div class="span6 offset1 horizontal-margin">
-          <address>
-            Elizabeth Hargreaves<br>
-            Chicago, Illinois<br>
-          </address>
-
+        <div class="row divider">
           <p> <a href="mailto:eh@martinepaper.com">eh@martinepaper.com</a><br>
               773.726.4363 </p>
-
+        </div>
+        <div class="row">
+          <div id="wufoo-z183hlkw0ajnu1k">
+            Fill out my <a href="https://martinepaper.wufoo.com/forms/z183hlkw0ajnu1k">online form</a>.
+            </div>
+            <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">There are tons of <a href="http://www.wufoo.com/features/">Wufoo features</a> to help make your forms awesome.</div>
+            <script type="text/javascript">var z183hlkw0ajnu1k;(function(d, t) {
+            var s = d.createElement(t), options = {
+            'userName':'martinepaper',
+            'formHash':'z183hlkw0ajnu1k',
+            'autoResize':true,
+            'height':'657',
+            'async':true,
+            'host':'wufoo.com',
+            'header':'show',
+            'ssl':true};
+            s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+            s.onload = s.onreadystatechange = function() {
+            var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+            try { z183hlkw0ajnu1k = new WufooForm();z183hlkw0ajnu1k.initialize(options);z183hlkw0ajnu1k.display(); } catch (e) {}};
+            var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+            })(document, 'script');</script>
+          </div>
         </div>
       </div>
+    </div>
+    
 
 
       <!--
@@ -66,7 +82,6 @@
         </div>
       </div> -->
 
-    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
