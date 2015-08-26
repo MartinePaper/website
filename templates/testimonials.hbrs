@@ -23,9 +23,9 @@
         </div>
         {{/if}}
         <div class="row">
-          <div class="col-md-5">
+          <div class="col-sm-5">
             <div id="invitation-detail-image-container-{{index}}" class="invitation-detail-image-container">
-              <img class="invitation-detail-image invitation-detail-a7-vertical" src="{{defaultImageUrl}}" alt="">
+              <img class="invitation-detail-image invitation-detail-a7-vertical img-responsive" src="{{defaultImageUrl}}" alt="">
             </div>
             <div class="image-thumbnails testimonial-thumbnails-container">
                 <div class="testimonial-thumbnails">
@@ -37,9 +37,11 @@
                 </div>
             </div>
           </div>
-          <div class="col-md-7">
+          <div class="col-sm-7">
             <blockquote class="testimonial">
+              <i class="fa fa-quote-left"></i>
               {{{quoteHtml}}}
+              <i class="fa fa-quote-right"></i>
               <p class="pull-right cite"><cite>{{name}}</cite></p>
             </blockquote>
           </div>
@@ -48,7 +50,7 @@
       </div>
     </div>
 
-      <!--
+      <!-- 
       <div class="row">
         <div class="span horizontal-margin page-title">
           <h2>Testimonials</h2>
@@ -98,7 +100,8 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="javascripts/bootstrap.min.js"></script>
+    <script src="/javascripts/bootstrap.min.js"></script>
+    <script src="/javascripts/main.js"></script>
 
     
   </body>

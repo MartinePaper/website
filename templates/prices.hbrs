@@ -17,7 +17,7 @@
           <h2>Prices</h2>
           <p>In an effort to keep pricing simple and easy, I’ve determined a set fee for a custom designed invitation suite. The cost includes all design work, and all the components listed below.</p>
         </div>
-        <div class="row divider">
+        <div class="row divider price-headings">
           <div class="col-xs-4 col-xs-offset-4">
             <h4>Letterpress<small> (2-color)</small></h4>
           </div>
@@ -29,10 +29,10 @@
           <div class="col-xs-4">
             <h5>First 100 Guests</h5>
           </div>
-          <div class="col-xs-4">
+          <div class="col-xs-4 price">
             <h3>$1,800</h3>
           </div>
-          <div class="col-xs-4">
+          <div class="col-xs-4 price">
             <h3>$1,200</h3>
           </div>
         </div>
@@ -40,10 +40,10 @@
           <div class="col-xs-4 vertical-align">
             <h5>Each Add'l 50 Guests</h5>
           </div>
-          <div class="col-xs-4">
+          <div class="col-xs-4 price">
             <h3>$200</h3>
           </div>
-          <div class="col-xs-4">
+          <div class="col-xs-4 price">
             <h3>$200</h3>
           </div>
         </div>
