@@ -48,6 +48,11 @@
         </div>
         {{/each}}
       </div>
+      
+      <div id="footer-container">
+        {{{footerHtml}}}
+      </div>
+
     </div>
 
       <!-- 

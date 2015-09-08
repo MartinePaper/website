@@ -71,6 +71,11 @@
           </div>
         </div>
       </div>
+      
+      <div id="footer-container">
+        {{{footerHtml}}}
+      </div>
+
     </div>
 
 
@@ -161,8 +166,6 @@
           <p>From initial contact to final sign off (not including printing) for a customized design please allow about 5-6 weeks. During our initial consultation we’ll discuss the timing, and tailor the process to the time you have available.</p>
         </div>
       </div> -->
-
-  </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

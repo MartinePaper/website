@@ -36,6 +36,11 @@
           </div>
         </div>
       </div>
+      
+      <div id="footer-container">
+        {{{footerHtml}}}
+      </div>
+
     </div>
       <!--
       <div class="row-fluid">

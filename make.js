@@ -11,6 +11,8 @@ var headTemplate = Handlebars.compile(fs.readFileSync('./templates/head.hbrs').t
 
 var headerTemplate = Handlebars.compile(fs.readFileSync('./templates/header.hbrs').toString());
 
+var footerTemplate = Handlebars.compile(fs.readFileSync('./templates/footer.hbrs').toString());
+
 var homeTemplate = Handlebars.compile(fs.readFileSync('./templates/home.hbrs').toString());
 
 var collectionsTemplate = Handlebars.compile(fs.readFileSync('./templates/collections.hbrs').toString());
@@ -121,6 +123,7 @@ function createPage(template, pageData, relativePath, title, filename) {
 	pageData.activeNav = pageData.activeNav || 'home';
 	pageData.headerHtml = pageData.headerHtml || headerTemplate( { active: pageData.activeNav } );
 	pageData.headHtml = headTemplate( { title: title ? title + ' | ' : '' } );
+	pageData.footerHtml = pageData.footerHtml || footerTemplate( { } );
 
 	var pageHtml = template(pageData);
 

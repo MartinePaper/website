@@ -133,6 +133,10 @@
         </div>
       </div> -->
 
+      <div id="footer-container">
+        {{{footerHtml}}}
+      </div>
+
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

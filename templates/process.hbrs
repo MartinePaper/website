@@ -13,6 +13,28 @@
       </div>
 
       <div class="main-page-style container-fluid">
+        <div class="row">
+        <h2>The Process</h2>
+        </div>
+        <div class="proccess-icons row">
+          <img src="/images/Process_Step1_REV.png" class="icon"/>
+          <img src="/images/Process_Step2_REV.png" class="icon"/>
+          <img src="/images/Process_Step3_REV.png" class="icon"/>
+          <img src="/images/Process_Step4_REV.png" class="icon"/>
+          <img src="/images/Process_Step5_REV.png" class="icon"/>
+        </div>
+        <div class="row">
+          <p class="process-text">{From initial contact to final sign off (not including printing) for a customized design please allow about 5-6 weeks.}</p>
+        </div>
+
+      </div>
+
+      <div id="footer-container">
+        {{{footerHtml}}}
+      </div>
+
+    </div>
+        <!--
         <div class="row divider">
           <h2>The Process</h2>
           <p>From initial contact to final sign off (not including printing) for a customized design please allow about 5-6 weeks.</p>
@@ -81,7 +103,7 @@
           </div>
         </div>
 
-      </div>
+      </div> -->
 
       <!--
       <div class="row">
@@ -158,7 +180,7 @@
         </div>
       </div> -->
 
-    </div>
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
