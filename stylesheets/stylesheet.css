@@ -2,10 +2,6 @@
 
 html { background: transparent }
 
-#main {
-  min-height: 800px;
-}
-
 body{
   background-image: url('../images/lyonnette.png');
   font-family: SofiaProLightRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -93,7 +89,7 @@ a.carousel-control:visited {
 #main {
   background: white;
   padding-top: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 
 #menu {
@@ -559,12 +555,19 @@ a.carousel-control:visited {
 
 .contact-email {
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .contact-form-descr {
   max-width: 760px;
 }
 
+
+/* Footer */
+
+#footer-container {
+  padding-top: 30px;
+}
 
 .footer {
   border-top: 1px solid #bcbec0;
