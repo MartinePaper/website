@@ -7,71 +7,51 @@
 
   <body>
 
-    <div id="main" class="container">
+    <div id="main" class="container-fluid">
       <div id="header-container">
         {{{headerHtml}}}
       </div>
 
-      <div class="row-fluid">
-        <div class="span horizontal-margin page-title">
+      <div class="main-page-style container-fluid">
+        <div class="row">
           <h2>Contact Me</h2>
-          <p>Hello! I look forward to hearing from you!</p>
-        </div>
-      </div>
-
-      <div class="row-fluid">
-        <div class="span6 offset1 horizontal-margin">
-          <address>
-            Elizabeth Hargreaves<br>
-            Martine Paper<br>
-            Studio 208<br>
-            355 North Laflin Street<br>
-            Chicago, Illinois 60607<br>
-            <em>-- hours by appointment --</em>
-          </address>
-
-          <p> <a href="mailto:eh@martinepaper.com">eh@martinepaper.com</a><br>
-              773.726.4363 </p>
-
-        </div>
-      </div>
-
-      <div class="row-fluid">
-        <div class="span10 horizontal-margin">
-          
-          <p>If you are in the Chicago area and would like to schedule a consultation we can arrange a time to meet in person. I gladly accommodate evening and weekend appointments. </p>
-
-          </p>
-        </div>
-      </div>
-
-      <div class="row-fluid row-section">
-        <div class="span10 horizontal-margin">
-          <div id="wufoo-z7x3p9">
-            Fill out my <a href="http://martinepaper.wufoo.com/forms/z7x3p9">online form</a>.
+          <h4 class="contact-email"> <a href="mailto:eh@martinepaper.com">eh@martinepaper.com</a></h4>
+          <div class="row divider">
           </div>
-          <script type="text/javascript">var z7x3p9;(function(d, t) {
+          <p class="contact-form-descr">If you would like to inquire about custom work or just to chat about what I can do for you, please fill out the form below. I will get back to you in 1-2 business days.</p>
+        </div>
+        <div id="wufoo-z183hlkw0ajnu1k">
+          Fill out my <a href="https://martinepaper.wufoo.com/forms/z183hlkw0ajnu1k">online form</a>.
+          </div>
+          <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">There are tons of <a href="http://www.wufoo.com/features/">Wufoo features</a> to help make your forms awesome.</div>
+          <script type="text/javascript">var z183hlkw0ajnu1k;(function(d, t) {
           var s = d.createElement(t), options = {
-          'userName':'martinepaper', 
-          'formHash':'z7x3p9', 
+          'userName':'martinepaper',
+          'formHash':'z183hlkw0ajnu1k',
           'autoResize':true,
-          'height':'1289',
+          'height':'657',
           'async':true,
-          'header':'show', 
+          'host':'wufoo.com',
+          'header':'hide',
           'ssl':true};
-          s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+          s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
           s.onload = s.onreadystatechange = function() {
           var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-          try { z7x3p9 = new WufooForm();z7x3p9.initialize(options);z7x3p9.display(); } catch (e) {}};
+          try { z183hlkw0ajnu1k = new WufooForm();z183hlkw0ajnu1k.initialize(options);z183hlkw0ajnu1k.display(); } catch (e) {}};
           var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
           })(document, 'script');</script>
         </div>
+
+        <div id="footer-container">
+          {{{footerHtml}}}
+        </div>
+
       </div>
 
-    </div>
-
-    <script src="/javascripts/jquery-1.8.1.min.js"></script>
-    <script src="/bootstrap/js/bootstrap.min.js"></script>
-
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="javascripts/bootstrap.min.js"></script>
+    
   </body>
 </html>
